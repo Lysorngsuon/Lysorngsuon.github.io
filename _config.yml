@@ -1,0 +1,33 @@
+title: "Suon Lysorng | Data Analyst, Financial Intelligence & Lecturer"
+description: "Personal academic and professional portfolio of Suon Lysorng - Data Analyst in Finance Division at Comin Asia, Lecturer at IFA, and ACCA/FIA Candidate."
+baseurl: ""
+url: "https://lysorngsuon.github.io"
+
+author:
+  name: "Suon Lysorng"
+  avatar: "/assets/img/profile.jpg"
+  bio: "Data Analyst in Finance Division | Power BI & Power Platform Specialist | Lecturer at IFA"
+  location: "Phnom Penh, Cambodia"
+  email: "lysorngsuon@gmail.com"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/lysorng-suon-563a44244/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Lysorngsuon"
+
+# Markdown & Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+include:
+  - assets
+exclude:
+  - README.md
+  - DEPLOYMENT_GUIDE.md
+  - github-profile-README.md
+
