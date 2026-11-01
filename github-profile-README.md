@@ -13,6 +13,9 @@
   ✉️ <a href="mailto:lysorngsuon@gmail.com">lysorngsuon@gmail.com</a>
 </p>
 
+> *"Data without financial context is just noise. Financial analysis without automated architecture is an operational bottleneck."*  
+> — **Lysorng Suon**
+
 ---
 
 ### 🚀 About Me
