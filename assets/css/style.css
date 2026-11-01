@@ -843,6 +843,100 @@ img {
   gap: 0.4rem;
 }
 
+.project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+  margin-top: 1.1rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.btn-project-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.45rem 0.85rem;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.btn-project-action:hover {
+  background-color: var(--accent-subtle);
+  color: var(--brand-blue);
+  border-color: var(--accent-border);
+  text-decoration: none;
+}
+
+.btn-project-action.primary {
+  background-color: var(--brand-blue);
+  color: #ffffff !important;
+  border-color: var(--brand-blue);
+  box-shadow: 0 2px 8px rgba(23, 63, 115, 0.2);
+}
+
+.btn-project-action.primary:hover {
+  background-color: var(--brand-blue-dark);
+  border-color: var(--brand-blue-dark);
+}
+
+/* Embedded PDF Details Drawer */
+.project-pdf-details {
+  margin-top: 0.85rem;
+  width: 100%;
+}
+
+.btn-pdf-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--brand-green);
+  cursor: pointer;
+  padding: 0.4rem 0.85rem;
+  border-radius: 6px;
+  background-color: var(--green-subtle);
+  border: 1px solid var(--green-border);
+  transition: all 0.2s ease;
+  user-select: none;
+  list-style: none;
+}
+
+.btn-pdf-toggle::-webkit-details-marker {
+  display: none;
+}
+
+.btn-pdf-toggle:hover {
+  background-color: var(--brand-green);
+  color: #ffffff;
+  border-color: var(--brand-green);
+}
+
+.pdf-embed-wrapper {
+  margin-top: 0.85rem;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-tertiary);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.pdf-iframe {
+  width: 100%;
+  height: 650px;
+  border: none;
+  display: block;
+}
+
 /* ==========================================================================
    Experience & Education Timeline
    ========================================================================== */

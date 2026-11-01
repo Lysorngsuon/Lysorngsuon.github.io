@@ -50,7 +50,7 @@
 
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
-| 🏦 **[Cambodia SME Financial Intelligence](https://lysorngsuon.github.io/#projects)** | Quantitative research modeling 100 SMEs over 300 firm-years calibrated to NBC, NIS, and World Bank benchmarks. 12-tab financial model, rule-based scorecard, and 5-page star-schema dashboard. | Excel Model, Python ETL, Power BI, DAX |
+| 🏦 **[Cambodia SME Financial Intelligence](https://lysorngsuon.github.io/#projects)** | Quantitative research modeling 100 SMEs over 300 firm-years calibrated to NBC, NIS, and World Bank benchmarks. 12-tab financial model, rule-based scorecard, and 5-page star-schema dashboard. ([📄 Read Research PDF](https://lysorngsuon.github.io/assets/docs/Cambodia_SME_Financial_Research_Portfolio.pdf)) | Excel Model, Python ETL, Power BI, DAX |
 | ⚙️ **[EPC Enterprise Digital Transformation](https://lysorngsuon.github.io/#projects)** | Digitized 36 business processes across 8 departments (Finance, Procurement, Inventory, IT, QS, HSEQ, D&E, Logistics) for Comin Asia (Cambodia & Laos) replacing costly SAP add-ons. | Power Apps, Power Automate, SAP B1 API |
 | 👥 **[Multi-Entity Analytics at RMA Group](https://lysorngsuon.github.io/#projects)** | Multi-subsidiary analytics (AVR, BSP Finance, Comin Khmere/Lao/Vietnam, EFG Cambodia, RMA Automotive) reducing report preparation time by 50%. | Power BI, Excel Pivot, Financial Dashboards |
 | 🌍 **[International BI Dashboards](https://lysorngsuon.github.io/#projects)** | Attrition & Recruitment Dashboard (Minecorp Australia), HR & Training Dashboard (RMA Laos), Compensation & Benefits Dashboard (EFG Cambodia). | Power BI, Workforce Planning, C&B |
