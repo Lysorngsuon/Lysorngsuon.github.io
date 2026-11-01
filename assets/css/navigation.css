@@ -1,0 +1,113 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #002fa7;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    min-height: 35px;
+}
+
+.topnav #myLinks {
+    display: inline;
+}
+
+.topnav a.icon {
+    display: none;
+}
+
+.topnav img {
+    padding: 7px 0 2px;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+.topnav span.logos {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 20%;
+    height: 35px;
+}
+
+.topnav span.logos a {
+    color: #ffffff;
+    font-size: 0.9em;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a.normal {
+    float: right;
+    color: rgb(246, 246, 246);
+    text-align: center;
+    padding: 9px 12px;
+    text-decoration: none;
+    font-size: 1.05em;
+    transition: background 0.2s, color 0.2s;
+}
+
+/* Change the color of links on hover */
+.topnav a.normal:hover {
+    background-color: #eee;
+    color: #333;
+}
+
+/* Add a margin to the rightmost link */
+.topnav a.right {
+    margin-right: 20%;
+}
+
+@media print, screen and (max-width: 1200px) {
+    .topnav span.logos {
+        margin-left: 8%;
+    }
+    .topnav a.right {
+        margin-right: 8%;
+    }
+}
+
+@media print, screen and (max-width: 960px) {
+    .topnav #myLinks {
+        display: none;
+    }
+
+    .topnav a.normal {
+        color: white;
+        float: none;
+        padding: 10px 18px;
+        text-decoration: none;
+        font-size: 1.1em;
+        display: block;
+        text-align: left;
+    }
+
+    .topnav a.icon {
+        color: white;
+        display: block;
+        padding: 10px 18px;
+        font-size: 1.1em;
+        position: absolute;
+        float: right;
+        right: 0;
+        top: 0;
+        margin-right: 5%;
+        text-decoration: none;
+    }
+
+    .topnav a.right {
+        color: white;
+        float: none;
+        padding: 10px 18px;
+        text-decoration: none;
+        font-size: 1.1em;
+        display: block;
+        margin-right: 0;
+    }
+}

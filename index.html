@@ -1,232 +1,201 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Suon Lysorng | Data Analyst, Financial Intelligence & Lecturer</title>
-  
-  <meta name="description" content="Personal academic and professional portfolio of Suon Lysorng - Data Analyst in Finance Division at Comin Asia, Lecturer at IFA, and ACCA/FIA Candidate.">
-  <meta name="author" content="Suon Lysorng">
-  
-  <!-- Open Graph / Meta -->
-  <meta property="og:title" content="Suon Lysorng - Academic & Industry Portfolio">
-  <meta property="og:description" content="Data Analyst in Finance Division | Power BI, Power Platform, SAP B1 Integration, Financial Intelligence & Higher Education Lecturer.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://lysorngsuon.github.io/">
-  <meta property="og:image" content="assets/img/profile.jpg">
+<html lang="en-US">
+  <head>
+    <title>Suon Lysorng | Data Analyst & Lecturer</title>
 
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="assets/css/style.css">
-  
-  <!-- Font Awesome Icons for Academic & Social Links -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-</head>
-<body>
-
-  <!-- Top Navigation Header -->
-  <header class="site-header">
-    <div class="header-container">
-      <a href="#about" class="site-title">
-        Suon Lysorng
-        <span class="status-badge">Finance & BI</span>
-      </a>
-
-      <nav class="site-nav">
-        <ul class="nav-links" id="nav-links">
-          <li><a href="#about" class="active">About</a></li>
-          <li><a href="#publications">Research</a></li>
-          <li><a href="#teaching">Teaching</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#experience">Experience & CV</a></li>
-          <li><a href="#gallery">Media & Gallery</a></li>
-        </ul>
-        
-        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark/light mode" title="Toggle theme">
-          🌙
-        </button>
-
-        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle mobile menu">
-          <i class="fa-solid fa-bars"></i>
-        </button>
-      </nav>
-    </div>
-  </header>
-
-  <!-- Two-Column Page Layout -->
-  <div class="page-wrapper">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Suon Lysorng is a Data Analyst in the Finance Division at Comin Asia and Lecturer at the Institute of Finance and Accounting (IFA) in Phnom Penh, Cambodia. His work focuses on financial intelligence, Power BI, Power Platform, SAP Business One, and credit risk analytics.">
+    <meta name="keywords" content="Suon Lysorng, Lysorng Suon, Comin Asia, IFA, Power BI, DAX, SAP Business One, Financial Analyst, Cambodia SME, ACCA">
     
-    <!-- Left Sidebar (Academic Style) -->
-    <aside class="site-sidebar">
-      <div class="sidebar-sticky">
-        <div class="avatar-wrapper">
-          <img src="assets/img/profile.jpg" alt="Suon Lysorng" class="avatar-img">
-        </div>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Suon Lysorng | Data Analyst & Lecturer">
+    <meta property="og:url" content="https://lysorngsuon.github.io">
+    <meta property="og:site_name" content="Suon Lysorng | Academic & Industry Portfolio">
+    <meta property="og:description" content="Data Analyst in Finance Division at Comin Asia, Lecturer at IFA, and ACCA FIA Candidate.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="./assets/img/profile.jpg">
+    
+    <link rel="canonical" href="https://lysorngsuon.github.io"/>
+    <link rel="shortcut icon" type="image/jpeg" href="./assets/img/profile.jpg">
+    
+    <!-- Academicons & FontAwesome (Exact like luboshanus.github.io) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous">
+    
+    <!-- Minimal Light CSS Files -->
+    <link rel="stylesheet" href="./assets/css/font_sans_serif.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/publications.css">
+    <link rel="stylesheet" href="./assets/css/navigation.css">
+    
+    <script type="text/javascript">
+      function toggle_vis(id) {
+          var e = document.getElementById(id);
+          if (e.style.display == 'none' || e.style.display == '')
+              e.style.display = 'block';
+          else
+              e.style.display = 'none';
+      }
 
-        <div class="sidebar-profile">
-          <h1 class="sidebar-name">Suon Lysorng</h1>
-          <p class="sidebar-role">Data Analyst in Finance Division</p>
-          <p class="sidebar-org">Comin Asia &bull; Institute of Finance & Accounting</p>
-        </div>
+      function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+              x.style.display = "none";
+          } else {
+              x.style.display = "block";
+          }
+      }
 
-        <ul class="sidebar-details">
-          <li>
-            <i class="fa-solid fa-location-dot"></i>
-            <span>Phnom Penh, Cambodia</span>
-          </li>
-          <li>
-            <i class="fa-solid fa-graduation-cap"></i>
-            <span>ACCA / FIA (FA1 Passed) | BSc SME Mgmt</span>
-          </li>
-          <li>
-            <i class="fa-solid fa-envelope"></i>
-            <a href="mailto:lysorngsuon@gmail.com">lysorngsuon@gmail.com</a>
-          </li>
-          <li>
-            <i class="fa-solid fa-phone"></i>
-            <span>(+855) 98 926 775</span>
-          </li>
+      window.onscroll = function() {
+          var btn = document.getElementById("back-to-top");
+          if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+              btn.style.display = "block";
+          } else {
+              btn.style.display = "none";
+          }
+      };
+   </script>
+  </head>
+  <body>
+    
+    <!-- Top Navigation Bar -->
+    <div class="topnav">
+      
+      <span class="logos">
+        <a href="#about-me"><strong>SUON LYSORNG</strong></a>
+      </span>
+
+      <div id="myLinks">
+        <a class="normal right" href="./#contact">Contact</a>
+        <a class="normal" href="./#conferences">Talks & Seminars</a>
+        <a class="normal" href="./#projects">Projects</a>
+        <a class="normal" href="./#teaching">Teaching</a>
+        <a class="normal" href="./#publications">Publications</a>
+        <a class="normal" href="./#about-me">Bio</a>
+      </div>
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">Back to Top</button>
+    
+    <!-- Main Two-Column Wrapper -->
+    <div class="wrapper">
+      
+      <!-- Fixed Left Sidebar Header -->
+      <header>
+        <a class="image avatar"><img src="./assets/img/profile.jpg" alt="Suon Lysorng" /></a>
+
+        <h1>Suon Lysorng</h1>
+
+        <position style="font-size:1.10rem;">Data Analyst & Lecturer</position>
+        <br>
+        
+        <a href="https://www.linkedin.com/in/lysorng-suon-563a44244/" target="_blank" rel="noopener">
+          <autocolor>Comin Asia (Finance Division)</autocolor>
+        </a>
+        <br>
+        
+        <a href="https://www.ifa.edu.kh/" target="_blank" rel="noopener">
+          <autocolor>Institute of Finance and Accounting</autocolor>
+        </a>
+        <br>
+        
+        <email>lysorngsuon (at) gmail.com</email>
+        <br>
+        <email>(+855) 98 926 775</email>
+
+        <br>
+        <div class="social-icons">
+          <a style="margin: 0 5px 0 0" href="assets/docs/SUON_LYSORNG_CV.pdf" target="_blank" title="Curriculum Vitae">
+            <i class="ai ai-cv" style="font-size:1.3rem;"></i>
+          </a>
+          <a style="margin: 0 5px 0 0" href="https://github.com/Lysorngsuon" target="_blank" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a style="margin: 0 5px 0 0" href="https://www.linkedin.com/in/lysorng-suon-563a44244/" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a style="margin: 0 5px 0 0" href="https://doi.org/10.5682/9786062822002" target="_blank" title="Published Research DOI">
+            <i class="ai ai-doi" style="font-size:1.2rem;"></i>
+          </a>
+        </div>
+        <br>
+      </header>
+      
+      <!-- Right Content Section -->
+      <section>
+
+        <h1 id="about-me"></h1>
+
+        <h2 id="short-bio">Short Bio</h2>
+
+        <p>I am a <strong>Data Analyst in the Finance Division</strong> at <strong>Comin Asia</strong> (EPC conglomerate operating across Cambodia and Laos) and a <strong>Lecturer in Advanced Excel, Power BI & Data Analytics</strong> at the <strong>Institute of Finance and Accounting (IFA)</strong> in Phnom Penh, Cambodia. Alongside my full-time industry practice, I am actively pursuing <strong>ACCA / FIA</strong> at BSA Cambodia (FA1 Passed).</p>
+
+        <p>At Comin Asia, I spearhead digital transformation across 8 business divisions (Finance, Procurement, Inventory, IT, QS, HSEQ, Design & Engineering, and Logistics). I lead the transition from manual, paper-based forms to in-house <strong>Microsoft Power Platform</strong> solutions (Power Apps, Power Automate, SharePoint, Power BI) seamlessly integrated into <strong>SAP Business One via the Service Layer API</strong> for automated Journal Entry posting and workflow governance.</p>
+
+        <p>As an educator, I design project-based courses connecting accounting and financial modeling with business intelligence, having trained over <strong>3,000+ students and corporate professionals</strong>.</p>
+
+        <h3 id="research-interests">Core expertise</h3>
+
+        <ul>
+          <li><strong>Financial Intelligence & Analytics:</strong> Power BI (DAX, Star Schema, Power Query), financial statement analysis (P&L, Balance Sheet, Gross Profit, Project P&L), 14 Financial Ratios, 3-Scenario Forecasting, Credit Risk Scorecards.</li>
+          <li><strong>Enterprise Automation & ERP:</strong> Microsoft Power Platform (Power Apps, Power Automate, SharePoint), SAP Business One Service Layer API, SAP SQL, Python automated data validation.</li>
         </ul>
 
-        <div class="sidebar-links">
-          <a href="assets/docs/SUON_LYSORNG_CV.pdf" class="btn-sidebar-cv" target="_blank" download>
-            <i class="fa-solid fa-file-pdf"></i> Download Full CV
-          </a>
+        <h3 id="work-in-progress">Active research & initiatives</h3>
 
-          <div class="social-icons-row">
-            <a href="https://github.com/Lysorngsuon" class="social-icon-btn" target="_blank" title="GitHub" aria-label="GitHub">
-              <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/lysorng-suon-563a44244/" class="social-icon-btn" target="_blank" title="LinkedIn" aria-label="LinkedIn">
-              <i class="fa-brands fa-linkedin-in"></i>
-            </a>
-            <a href="mailto:lysorngsuon@gmail.com" class="social-icon-btn" title="Email" aria-label="Email">
-              <i class="fa-solid fa-paper-plane"></i>
-            </a>
-            <a href="https://doi.org/10.5682/9786062822002" class="social-icon-btn" target="_blank" title="DOI Publications" aria-label="DOI">
-              <i class="fa-solid fa-book-bookmark"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </aside>
+        <ul>
+          <li>Cambodia SME Credit Risk Intelligence Framework (calibrated to NBC, NIS, and World Bank benchmarks)</li>
+          <li>Enterprise Low-Code SAP B1 Middleware Architecture for Cross-Border Construction & Engineering</li>
+        </ul>
 
-    <!-- Main Content Area -->
-    <main class="main-content">
-      
-      <!-- About / Overview Section -->
-      <section id="about" class="section-block">
-        <h2 class="section-title">
-          About Me
-        </h2>
-        
-        <div class="bio-intro">
-          <p>
-            I am a <strong>Data Analyst in the Finance Division</strong> at <strong>Comin Asia</strong> and a 
-            <strong>Lecturer in Advanced Excel, Power BI & Data Analytics</strong> at the <strong>Institute of Finance and Accounting (IFA)</strong>. 
-            Currently pursuing <strong>ACCA / FIA</strong> at BSA Cambodia (FA1 passed), my focus lies at the intersection of corporate finance, business intelligence, 
-            and enterprise automation.
-          </p>
-          <p>
-            At Comin Asia, I spearhead digital transformation across 8 business divisions (Finance, Procurement, Inventory, IT, QS, HSEQ, Design & Engineering, and Logistics) 
-            for an Engineering, Procurement, and Construction (EPC) firm spanning Cambodia and Laos. My work replaces expensive SAP add-on modules with modern 
-            <strong>Microsoft Power Platform</strong> architectures (Power Apps, Power Automate, SharePoint, Power BI) seamlessly integrated into 
-            <strong>SAP Business One via the Service Layer API</strong> for automated Journal Entry posting and workflow governance.
-          </p>
-          <p>
-            As an educator, I have trained over <strong>3,000+ students and professionals</strong> in project-based courses connecting Financial Modeling, 
-            DAX measures, star-schema data modeling, and executive storytelling. My academic research on international trade and higher education error analysis 
-            is published internationally with <em>Editura Universitară</em> in Romania (ISBN 978-606-28-2200-2).
-          </p>
-        </div>
+        <h3 id="news">News & Milestones</h3>
 
-        <!-- Key Metrics Grid -->
-        <div class="stats-grid">
-          <div class="stat-card">
-            <div class="stat-number">3,000+</div>
-            <div class="stat-label">Students Trained</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-number">36</div>
-            <div class="stat-label">Forms Digitized</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-number">8</div>
-            <div class="stat-label">Divisions Transformed</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-number">2</div>
-            <div class="stat-label">Published Papers</div>
-          </div>
-        </div>
+        <ul>
+          <li><strong>[Oct 2026]</strong> Published research portfolio: <em>Cambodia SME Financial Intelligence & Credit Risk Analysis</em> (12-tab Excel model, Python ETL pipeline with 12 integrity checks, 5-page star-schema Power BI dashboard).</li>
+          <li><strong>[2026]</strong> Published author and co-author of two international research papers in <em>Digitalization and Knowledge: Ethical Challenges and Impact on Society</em>, Editura Universitară, Romania (ISBN 978-606-28-2200-2, DOI: <a href="https://doi.org/10.5682/9786062822002" target="_blank">10.5682/9786062822002</a>).</li>
+          <li><strong>[Feb 2025]</strong> Appointed Data Analyst in Finance Division at Comin Asia.</li>
+          <li><strong>[2025]</strong> Completed <strong>Erasmus+ Mobility for Higher Education</strong> at Universitatea Dimitrie Cantemir in Târgu Mureș, Romania.</li>
+          <li><strong>[2025]</strong> Graduated Bachelor’s Degree in SME Management from LSI Business School.</li>
+          <li><strong>[2024]</strong> Graduated Leadership Development Program at <strong>IATSS Forum</strong> (Suzuka, Japan).</li>
+          <li><strong>[May 2023]</strong> Appointed Lecturer at the Institute of Finance and Accounting (IFA) for Advanced Excel & Power BI.</li>
+        </ul>
 
-        <!-- Core Competencies -->
-        <div class="skills-container">
-          <div class="skill-category">
-            <h4>Financial Modeling & Intelligence</h4>
-            <div class="tags-list">
-              <span class="tag-item highlight">14 Financial Ratios</span>
-              <span class="tag-item highlight">Credit Risk Scoring</span>
-              <span class="tag-item">Scenario Analysis (Base/Bull/Bear)</span>
-              <span class="tag-item">P&L & Balance Sheet</span>
-              <span class="tag-item">AR/AP Aging</span>
-              <span class="tag-item">Cost-Benefit Analysis</span>
-              <span class="tag-item">ACCA FIA</span>
-            </div>
-          </div>
+        <h1 id="publications"></h1>
 
-          <div class="skill-category">
-            <h4>Analytics & Low-Code Engineering</h4>
-            <div class="tags-list">
-              <span class="tag-item highlight">Microsoft Power BI</span>
-              <span class="tag-item highlight">DAX & Power Query</span>
-              <span class="tag-item">Star Schema Modeling</span>
-              <span class="tag-item">Python (ETL & Checks)</span>
-              <span class="tag-item highlight">Power Apps</span>
-              <span class="tag-item highlight">Power Automate</span>
-              <span class="tag-item">SharePoint</span>
-              <span class="tag-item">SAP Business One (Service Layer)</span>
-              <span class="tag-item">SAP SQL</span>
-            </div>
-          </div>
-        </div>
-      </section>
+        <h2>Publications</h2>
 
-      <!-- Publications & Academic Research Section -->
-      <section id="publications" class="section-block">
-        <h2 class="section-title">
-          Research & Publications
-          <span class="count-badge">2 Papers &bull; 1 Book</span>
-        </h2>
+        <div class="publications">
+          <ol class="bibliography">
 
-        <p style="color: var(--text-secondary); margin-bottom: 1.25rem; font-size: 0.95rem;">
-          Published as Author & Co-Author under <em>Digitalization and Knowledge: Ethical Challenges and Impact on Society</em>, 
-          Editura Universitară, Romania (2026).
-        </p>
-
-        <!-- Publication 1 -->
-        <article class="pub-item">
-          <h3 class="pub-title">
-            Romania and Cambodia: A Comparative Analysis of International Trade: Similarities and Differences
-          </h3>
-          <p class="pub-authors">
-            <strong>Suon Lysorng</strong>, Co-Authors
-          </p>
-          <p class="pub-venue">
-            In <em>Digitalization and Knowledge: Ethical Challenges and Impact on Society</em>, Editura Universitară, Romania, 2026. 
-            ISBN: 978-606-28-2200-2 &bull; DOI: 10.5682/9786062822002
-          </p>
-          <div class="pub-meta-row">
-            <a href="https://doi.org/10.5682/9786062822002" target="_blank" class="btn-pub-action">
-              <i class="fa-solid fa-arrow-up-right-from-square"></i> Publisher DOI
-            </a>
-            <button class="btn-pub-action" onclick="toggleBibtex('bib-paper1')">
-              <i class="fa-solid fa-quote-left"></i> BibTeX
-            </button>
-            <button class="btn-pub-action" onclick="copyBibtex('bib-paper1', this)">
-              <i class="fa-regular fa-copy"></i> Copy Citation
-            </button>
-          </div>
-          <div id="bib-paper1" class="bibtex-box">@incollection{lysorng2026trade,
+            <!-- Publication 1 -->
+            <li>
+              <div class="pub-row">
+                <div class="abbr">
+                  <img src="./assets/img/digital_finance_transform.jpg" class="teaser" alt="Trade Paper" />
+                  <abbr class="badge">Book Chapter</abbr>
+                </div>
+                <div>
+                  <div class="title">
+                    <a href="https://doi.org/10.5682/9786062822002" target="_blank">
+                      Romania and Cambodia: A Comparative Analysis of International Trade: Similarities and Differences
+                    </a>
+                  </div>
+                  <div class="author"><strong>Suon Lysorng</strong>, Co-Authors</div>
+                  <div class="periodical">
+                    <em>In Digitalization and Knowledge: Ethical Challenges and Impact on Society, Editura Universitară, Romania, 2026</em>
+                  </div>
+                  <div class="links">
+                    <a href="https://doi.org/10.5682/9786062822002" class="btn btn-sm" role="button" target="_blank">DOI</a>
+                    <a href="javascript:void(0);" class="btn btn-sm" role="button" onclick="toggle_vis('bib_paper1')">BibTeX</a>
+                  </div>
+                  <div id="bib_paper1" class="bibref">@incollection{lysorng2026trade,
   title     = {Romania and Cambodia: A Comparative Analysis of International Trade: Similarities and Differences},
   author    = {Lysorng, Suon and Co-Authors},
   booktitle = {Digitalization and Knowledge: Ethical Challenges and Impact on Society},
@@ -235,32 +204,32 @@
   isbn      = {978-606-28-2200-2},
   doi       = {10.5682/9786062822002}
 }</div>
-        </article>
+                </div>
+              </div>
+            </li>
 
-        <!-- Publication 2 -->
-        <article class="pub-item">
-          <h3 class="pub-title">
-            Common English Errors Among University Students: A Comparative Analysis of Romania and Cambodia
-          </h3>
-          <p class="pub-authors">
-            <strong>Suon Lysorng</strong>, Co-Authors
-          </p>
-          <p class="pub-venue">
-            In <em>Digitalization and Knowledge: Ethical Challenges and Impact on Society</em>, Editura Universitară, Romania, 2026. 
-            ISBN: 978-606-28-2200-2 &bull; DOI: 10.5682/9786062822002
-          </p>
-          <div class="pub-meta-row">
-            <a href="https://doi.org/10.5682/9786062822002" target="_blank" class="btn-pub-action">
-              <i class="fa-solid fa-arrow-up-right-from-square"></i> Publisher DOI
-            </a>
-            <button class="btn-pub-action" onclick="toggleBibtex('bib-paper2')">
-              <i class="fa-solid fa-quote-left"></i> BibTeX
-            </button>
-            <button class="btn-pub-action" onclick="copyBibtex('bib-paper2', this)">
-              <i class="fa-regular fa-copy"></i> Copy Citation
-            </button>
-          </div>
-          <div id="bib-paper2" class="bibtex-box">@incollection{lysorng2026errors,
+            <!-- Publication 2 -->
+            <li>
+              <div class="pub-row">
+                <div class="abbr">
+                  <img src="./assets/img/training_eurocham.jpg" class="teaser" alt="Error Analysis Paper" />
+                  <abbr class="badge">Book Chapter</abbr>
+                </div>
+                <div>
+                  <div class="title">
+                    <a href="https://doi.org/10.5682/9786062822002" target="_blank">
+                      Common English Errors Among University Students: A Comparative Analysis of Romania and Cambodia
+                    </a>
+                  </div>
+                  <div class="author"><strong>Suon Lysorng</strong>, Co-Authors</div>
+                  <div class="periodical">
+                    <em>In Digitalization and Knowledge: Ethical Challenges and Impact on Society, Editura Universitară, Romania, 2026</em>
+                  </div>
+                  <div class="links">
+                    <a href="https://doi.org/10.5682/9786062822002" class="btn btn-sm" role="button" target="_blank">DOI</a>
+                    <a href="javascript:void(0);" class="btn btn-sm" role="button" onclick="toggle_vis('bib_paper2')">BibTeX</a>
+                  </div>
+                  <div id="bib_paper2" class="bibref">@incollection{lysorng2026errors,
   title     = {Common English Errors Among University Students: A Comparative Analysis of Romania and Cambodia},
   author    = {Lysorng, Suon and Co-Authors},
   booktitle = {Digitalization and Knowledge: Ethical Challenges and Impact on Society},
@@ -269,324 +238,168 @@
   isbn      = {978-606-28-2200-2},
   doi       = {10.5682/9786062822002}
 }</div>
-        </article>
-      </section>
+                </div>
+              </div>
+            </li>
 
-      <!-- Teaching & Instruction Section -->
-      <section id="teaching" class="section-block">
-        <h2 class="section-title">
-          Teaching & Masterclasses
-          <span class="count-badge">3,000+ Students</span>
-        </h2>
-
-        <div class="teaching-card">
-          <div class="teaching-header">
-            <div>
-              <h3 class="teaching-title">Lecturer & Course Designer: Financial Analytics & BI</h3>
-              <p class="teaching-org">Institute of Finance and Accounting (IFA) &bull; Phnom Penh</p>
-            </div>
-            <span class="teaching-dates">May 2023 – Present</span>
-          </div>
-          <p class="teaching-desc">
-            Lead instructor delivering practical, real-world courses connecting modern Accounting & Finance with Business Intelligence, automated reporting, and interactive dashboard storytelling.
-          </p>
-          <ul class="teaching-list">
-            <li><strong>Curriculum Areas:</strong> Advanced Excel (Pivot Tables, Power Query, Dynamic Arrays), Power BI (DAX metrics, star-schema data modeling), Microsoft Power Platform.</li>
-            <li><strong>Audience:</strong> 3,000+ Bachelor and Master students, finance managers, accountants, and working industry professionals.</li>
-            <li><strong>Project-Based Pedagogy:</strong> Guiding students to construct end-to-end automated financial models, executive dashboards, and KPI scorecards from scratch.</li>
-          </ul>
+          </ol>
         </div>
 
-        <div class="teaching-card">
-          <div class="teaching-header">
-            <div>
-              <h3 class="teaching-title">Executive Corporate Masterclasses & Workshops</h3>
-              <p class="teaching-org">European Chamber of Commerce in Cambodia (EuroCham) & THMDehus</p>
-            </div>
-            <span class="teaching-dates">2023 – Present</span>
-          </div>
-          <p class="teaching-desc">
-            Conducted corporate masterclasses tailored for multinational executives, business owners, and department heads on digital finance optimization and data governance.
-          </p>
+        <h1 id="teaching"></h1>
+
+        <h2>Teaching</h2>
+
+        <h3 id="courses">Academic & Professional Courses</h3>
+
+        <ul>
+          <li><strong>Lecturer at Institute of Finance and Accounting (IFA)</strong> (May 2023 – Present)
+            <ul>
+              <li><strong>Advanced Financial Analytics with Power BI & DAX:</strong> Star schema modeling, time-intelligence DAX measures, automated financial reporting.</li>
+              <li><strong>Advanced Excel for Finance & Accounting Professionals:</strong> Pivot tables, dynamic formulas, Power Query data cleaning, scenario forecasting.</li>
+              <li><strong>Microsoft Power Platform in Financial Operations:</strong> Automated approval workflows and internal controls using Power Apps & Power Automate.</li>
+              <li><em>Trained 3,000+ students across Bachelor's, Master's, and executive short-course programs.</em></li>
+            </ul>
+          </li>
+          <li><strong>Corporate Masterclasses</strong>
+            <ul>
+              <li><strong>European Chamber of Commerce in Cambodia (EuroCham):</strong> Executive training on digital finance transformation and data-driven reporting.</li>
+              <li><strong>THMDehus:</strong> Specialized analytics workflows and process management.</li>
+            </ul>
+          </li>
+        </ul>
+
+        <h1 id="projects"></h1>
+
+        <h2>Projects & Portfolios</h2>
+
+        <div class="publications">
+          <ol class="bibliography">
+
+            <!-- Project 1 -->
+            <li>
+              <div class="pub-row">
+                <div class="abbr">
+                  <img src="./assets/img/powerbi_dashboard_preview.jpg" class="teaser" alt="SME Financial Intelligence" />
+                  <abbr class="badge">Research</abbr>
+                </div>
+                <div>
+                  <div class="title"><a href="https://github.com/Lysorngsuon" target="_blank">Cambodia SME Financial Intelligence & Credit Risk Analysis</a></div>
+                  <div class="author"><strong>Suon Lysorng</strong></div>
+                  <div class="periodical"><em>Comprehensive Quantitative Finance Research & Dashboard Suite, Oct 2026</em></div>
+                  <p style="margin: 3px 0 6px; font-size: 0.9em; color: #555;">
+                    12-tab financial model (14 ratios, 3 scenarios), Python ETL pipeline with 12 integrity checks, rule-based credit risk scorecard, and 5-page star-schema Power BI dashboard (35+ DAX measures) calibrated to NBC and World Bank benchmarks.
+                  </p>
+                  <div class="links">
+                    <a href="https://github.com/Lysorngsuon" class="btn btn-sm" role="button" target="_blank">Repository</a>
+                    <a href="assets/docs/SUON_LYSORNG_CV.pdf" class="btn btn-sm" role="button" target="_blank">Details</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Project 2 -->
+            <li>
+              <div class="pub-row">
+                <div class="abbr">
+                  <img src="./assets/img/digital_finance_transform.jpg" class="teaser" alt="Comin Asia SAP B1" />
+                  <abbr class="badge">Enterprise</abbr>
+                </div>
+                <div>
+                  <div class="title"><a href="https://www.linkedin.com/in/lysorng-suon-563a44244/" target="_blank">Comin Asia Enterprise Digital Transformation & SAP B1 Automation</a></div>
+                  <div class="author"><strong>Suon Lysorng</strong></div>
+                  <div class="periodical"><em>Comin Asia (Cambodia & Laos), 2025–Present</em></div>
+                  <p style="margin: 3px 0 6px; font-size: 0.9em; color: #555;">
+                    Digitized 36 manual business forms across 8 departments replacing external SAP modules with Power Platform. Built Expense Claim automation integrated via SAP Business One Service Layer API for automated Journal Entry posting.
+                  </p>
+                  <div class="links">
+                    <a href="https://www.linkedin.com/posts/lysorng-suon-563a44244_digitaltransformation-digitalfinance-finance-activity-7493549442617389056-YrpP" class="btn btn-sm" role="button" target="_blank">Case Study</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Project 3 -->
+            <li>
+              <div class="pub-row">
+                <div class="abbr">
+                  <img src="./assets/img/training_ifa.jpg" class="teaser" alt="RMA Analytics" />
+                  <abbr class="badge">Analytics</abbr>
+                </div>
+                <div>
+                  <div class="title"><a href="https://www.linkedin.com/in/lysorng-suon-563a44244/" target="_blank">Multi-Entity Conglomerate Reporting Optimization</a></div>
+                  <div class="author"><strong>Suon Lysorng</strong></div>
+                  <div class="periodical"><em>RMA Cambodia Group (AVR, BSP Finance, EFG, Comin, RMA Automotive), 2023–2025</em></div>
+                  <p style="margin: 3px 0 6px; font-size: 0.9em; color: #555;">
+                    Built automated Power BI and Excel reporting pipelines cutting report generation turnaround by 50% across P&L, Accounts Receivable, GL, C&B, and Workforce Scorecards.
+                  </p>
+                  <div class="links">
+                    <a href="assets/docs/SUON_LYSORNG_CV.pdf" class="btn btn-sm" role="button" target="_blank">CV Overview</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+          </ol>
         </div>
-      </section>
 
-      <!-- Projects & Portfolios Section -->
-      <section id="projects" class="section-block">
-        <h2 class="section-title">
-          Featured Analytics & Engineering Projects
-        </h2>
+        <h1 id="conferences"></h1>
 
-        <!-- Category Filters -->
-        <div class="projects-filter-bar">
-          <button class="filter-btn active" data-filter="all">All Projects</button>
-          <button class="filter-btn" data-filter="fin-model">Financial Modeling & Research</button>
-          <button class="filter-btn" data-filter="bi-dash">Power BI & Dashboards</button>
-          <button class="filter-btn" data-filter="automation">Power Platform & SAP</button>
-        </div>
+        <h2>Conferences, Seminars & Talks</h2>
 
-        <!-- Project 1: Cambodia SME Financial Intelligence -->
-        <article class="project-card" data-category="fin-model bi-dash">
-          <div class="project-badge-row">
-            <span class="project-tag">Flagship Research Portfolio</span>
-            <span class="project-date">October 2026</span>
-          </div>
-          <h3 class="project-title">Cambodia SME Financial Intelligence & Credit Risk Analysis</h3>
-          <p class="project-desc">
-            A comprehensive quantitative research portfolio modeling 100 Cambodian SMEs over 300 firm-years, calibrated to National Bank of Cambodia (NBC), National Institute of Statistics (NIS), and World Bank benchmarks.
-          </p>
-          <ul class="project-bullets">
-            <li><strong>12-Tab Excel Financial Model:</strong> 14 financial ratios (Liquidity, Solvency, Profitability, Efficiency), 3-scenario forecasting engine (Base, Bull, Bear), and dynamic sensitivity analysis.</li>
-            <li><strong>Python ETL Pipeline:</strong> 12 automated integrity checks enforcing accounting identities (Assets = Liabilities + Equity, Cash Reconciliation).</li>
-            <li><strong>5-Page Star-Schema Power BI Dashboard:</strong> Over 35+ DAX measures evaluating credit risk tiers, working capital cycles, and industry risk heatmaps.</li>
-          </ul>
-          <div class="project-tech-tags">
-            <span class="tag-item">Excel Financial Modeling</span>
-            <span class="tag-item">Power BI</span>
-            <span class="tag-item">DAX</span>
-            <span class="tag-item">Python ETL</span>
-            <span class="tag-item">Credit Risk Scorecards</span>
-          </div>
-        </article>
+        <p>Selected engagements and international programs:</p>
+        <ul>
+          <li><strong>2025:</strong> Erasmus+ Higher Education Mobility Program & Academic Seminar, <em>Universitatea Dimitrie Cantemir</em>, Târgu Mureș, Romania</li>
+          <li><strong>2024:</strong> Leadership Development Program, <em>IATSS Forum</em>, Suzuka, Japan</li>
+          <li><strong>2024:</strong> Digital Finance & Executive Reporting Masterclass, <em>EuroCham Cambodia</em>, Phnom Penh</li>
+          <li><strong>2023–2026:</strong> Project-Based BI & Financial Modeling Seminars, <em>Institute of Finance and Accounting</em>, Phnom Penh</li>
+          <li><strong>2021:</strong> Environmental & Sustainable Development Workshop, <em>YSEALI</em>, Vietnam</li>
+        </ul>
 
-        <!-- Project 2: Comin Asia SAP & Power Platform -->
-        <article class="project-card" data-category="automation bi-dash">
-          <div class="project-badge-row">
-            <span class="project-tag">Enterprise Digital Transformation</span>
-            <span class="project-date">Feb 2025 – Present</span>
-          </div>
-          <h3 class="project-title">EPC Enterprise Digitization & SAP Business One Automation</h3>
-          <p class="project-desc">
-            Modernization of 36 manual and paper-based business forms across 8 departments at Comin Asia (Cambodia & Laos) replacing costly external SAP add-on licensing with in-house Microsoft Power Platform applications.
-          </p>
-          <ul class="project-bullets">
-            <li><strong>SAP Service Layer API Integration:</strong> Phase 1 Expense Claim Automation solution providing automated finance approval workflows and automatic Journal Entry posting.</li>
-            <li><strong>CFO Cost-Benefit Analysis:</strong> Quantified multi-year cost avoidance and enterprise ROI presented to executive finance leadership.</li>
-            <li><strong>Regional Financial Dashboards:</strong> Automated regional reporting across Cambodia and Laos for P&L, Gross Profit, Project P&L, and AR/AP Aging.</li>
-          </ul>
-          <div class="project-tech-tags">
-            <span class="tag-item">Power Apps</span>
-            <span class="tag-item">Power Automate</span>
-            <span class="tag-item">SAP Business One API</span>
-            <span class="tag-item">SharePoint</span>
-            <span class="tag-item">Power BI</span>
-          </div>
-        </article>
+        <h1 id="education"></h1>
 
-        <!-- Project 3: RMA Cambodia Multi-Entity Analytics -->
-        <article class="project-card" data-category="bi-dash">
-          <div class="project-badge-row">
-            <span class="project-tag">Multi-Entity Analytics</span>
-            <span class="project-date">2023 – 2025</span>
-          </div>
-          <h3 class="project-title">RMA Cambodia Conglomerate Analytics & Reporting Optimization</h3>
-          <p class="project-desc">
-            Implemented dynamic reporting systems for multiple enterprise subsidiaries (AVR, BSP Finance, Comin Khmere/Lao/Vietnam, EFG Cambodia, RMA Automotive).
-          </p>
-          <ul class="project-bullets">
-            <li>Reduced weekly and monthly reporting turnaround time by 50% via automated Power BI and Excel workflows.</li>
-            <li>Deployed executive dashboards for P&L, Accounts Receivable, General Ledger, Sales & Marketing, and HR Scorecards.</li>
-          </ul>
-          <div class="project-tech-tags">
-            <span class="tag-item">Power BI</span>
-            <span class="tag-item">Excel Pivot/Query</span>
-            <span class="tag-item">Financial Reporting</span>
-            <span class="tag-item">HR Analytics</span>
-          </div>
-        </article>
+        <h2>Education & Accreditations</h2>
 
-        <!-- Project 4: International Client Dashboards -->
-        <article class="project-card" data-category="bi-dash">
-          <div class="project-badge-row">
-            <span class="project-tag">International BI Deliverables</span>
-            <span class="project-date">2024</span>
-          </div>
-          <h3 class="project-title">Minecorp Australia, RMA Laos & EFG Compensation Dashboards</h3>
-          <p class="project-desc">
-            Custom business intelligence dashboards developed for international and regional clients:
-          </p>
-          <ul class="project-bullets">
-            <li><strong>Minecorp Australia (Dec 2024):</strong> Attrition & Recruitment Dashboard examining demographic turnover and competency requirements.</li>
-            <li><strong>RMA Laos (Sep 2024):</strong> Human Resource and Training Performance Dashboard analyzing 7,000+ report listings.</li>
-            <li><strong>EFG Cambodia (Jun 2024):</strong> Compensation & Benefits (C&B) Dashboard integrating payroll data for real-time overtime and salary distribution insights.</li>
-          </ul>
-          <div class="project-tech-tags">
-            <span class="tag-item">Power BI</span>
-            <span class="tag-item">Workforce Planning</span>
-            <span class="tag-item">C&B Analytics</span>
-          </div>
-        </article>
-      </section>
+        <ul>
+          <li><strong>ACCA / FIA / CAT:</strong> Currently pursuing alongside full-time work (FA1 Passed), BSA Cambodia</li>
+          <li><strong>Bachelor's Degree in SME Management:</strong> LSI Business School, Cambodia (Graduated 2025)</li>
+          <li><strong>Erasmus+ Mobility for Higher Education:</strong> Universitatea Dimitrie Cantemir, Romania (2025)</li>
+          <li><strong>Leadership Development Program:</strong> IATSS Forum, Japan (2024)</li>
+          <li><strong>Diploma in General English (3-Year, 1,308 Hours):</strong> Paññāsāstra University of Cambodia (2021)</li>
+        </ul>
 
-      <!-- Experience & Education Timeline Section -->
-      <section id="experience" class="section-block">
-        <h2 class="section-title">
-          Career & Education Timeline
-        </h2>
+        <h1 id="contact"></h1>
 
-        <div class="timeline">
-          
-          <!-- Experience 1 -->
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-header">
-              <h3 class="timeline-role">Data Analyst in Finance Division</h3>
-              <span class="timeline-time">Feb 2025 – Present</span>
-            </div>
-            <p class="timeline-company">Comin Asia &bull; Phnom Penh, Cambodia</p>
-            <p class="timeline-desc">
-              Driving digital transformation, Power Platform low-code development, SAP Business One integration, and regional financial reporting across Cambodia and Laos.
-            </p>
-          </div>
+        <h2>Contact</h2>
 
-          <!-- Experience 2 -->
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-header">
-              <h3 class="timeline-role">Lecturer – Excel, Power BI & Data Analytics</h3>
-              <span class="timeline-time">May 2023 – Present</span>
-            </div>
-            <p class="timeline-company">Institute of Finance and Accounting (IFA) &bull; Phnom Penh, Cambodia</p>
-            <p class="timeline-desc">
-              Designing project-based curricula connecting accounting, financial modeling, and business intelligence for 3,000+ students and professionals.
-            </p>
-          </div>
+        <h3 id="contact-info">Suon Lysorng</h3>
 
-          <!-- Experience 3 -->
-          <div class="timeline-item">
-            <div class="timeline-dot"></div>
-            <div class="timeline-header">
-              <h3 class="timeline-role">Human Resource Analyst</h3>
-              <span class="timeline-time">Mar 2023 – Jan 2025</span>
-            </div>
-            <p class="timeline-company">RMA Cambodia Group &bull; Phnom Penh, Cambodia</p>
-            <p class="timeline-desc">
-              Maintained multi-entity reporting dashboards, cutting reporting processing time by 50% across P&L, AR, GL, C&B, and workforce metrics.
-            </p>
-          </div>
-
-          <!-- Education 1 -->
-          <div class="timeline-item">
-            <div class="timeline-dot" style="border-color: #10b981;"></div>
-            <div class="timeline-header">
-              <h3 class="timeline-role">ACCA / FIA / CAT (In Progress, FA1 Passed)</h3>
-              <span class="timeline-time">2026 – Present</span>
-            </div>
-            <p class="timeline-company">BSA Cambodia &bull; ACCA Global Pathway</p>
-            <p class="timeline-desc">
-              Studying foundations in financial accounting, management reporting, and international accounting standards alongside full-time work.
-            </p>
-          </div>
-
-          <!-- Education 2 -->
-          <div class="timeline-item">
-            <div class="timeline-dot" style="border-color: #10b981;"></div>
-            <div class="timeline-header">
-              <h3 class="timeline-role">Bachelor’s Degree in SME Management</h3>
-              <span class="timeline-time">Graduated 2025</span>
-            </div>
-            <p class="timeline-company">LSI Business School &bull; Cambodia</p>
-          </div>
-
-          <!-- Education 3 -->
-          <div class="timeline-item">
-            <div class="timeline-dot" style="border-color: #10b981;"></div>
-            <div class="timeline-header">
-              <h3 class="timeline-role">Erasmus+ Mobility for Higher Education</h3>
-              <span class="timeline-time">2025</span>
-            </div>
-            <p class="timeline-company">Universitatea Dimitrie Cantemir &bull; Târgu Mureș, Romania</p>
-          </div>
-
-          <!-- Education 4 -->
-          <div class="timeline-item">
-            <div class="timeline-dot" style="border-color: #10b981;"></div>
-            <div class="timeline-header">
-              <h3 class="timeline-role">Leadership Development Program Graduate</h3>
-              <span class="timeline-time">2024</span>
-            </div>
-            <p class="timeline-company">IATSS Forum &bull; Suzuka, Japan</p>
-          </div>
-
-          <!-- Education 5 -->
-          <div class="timeline-item">
-            <div class="timeline-dot" style="border-color: #10b981;"></div>
-            <div class="timeline-header">
-              <h3 class="timeline-role">Diploma in General English (3-Year, 1,308 Hours)</h3>
-              <span class="timeline-time">Graduated 2021</span>
-            </div>
-            <p class="timeline-company">Paññāsāstra University of Cambodia (PUC)</p>
-          </div>
-        </div>
-      </section>
-
-      <!-- Media & Gallery Section -->
-      <section id="gallery" class="section-block">
-        <h2 class="section-title">
-          Teaching & Digital Transformation Gallery
-        </h2>
-        <p style="color: var(--text-secondary); margin-bottom: 1.25rem; font-size: 0.95rem;">
-          Highlights from classroom lectures at IFA, executive masterclasses at EuroCham, and enterprise digital adoption sessions.
+        <p>
+          <strong>Finance Division</strong>, Comin Asia
+          <br>
+          Phnom Penh, Cambodia
+          <br>
+          <strong>Email:</strong> <email>lysorngsuon (at) gmail.com</email>
+          <br>
+          <strong>Phone:</strong> (+855) 98 926 775
+          <br>
+          <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/lysorng-suon-563a44244/" target="_blank">linkedin.com/in/lysorng-suon-563a44244</a>
+          <br>
+          <strong>GitHub:</strong> <a href="https://github.com/Lysorngsuon" target="_blank">github.com/Lysorngsuon</a>
         </p>
 
-        <div class="gallery-grid">
-          
-          <div class="gallery-card">
-            <div class="gallery-img-wrapper">
-              <img src="assets/img/training_ifa.jpg" alt="IFA Institute Lecture" loading="lazy">
-            </div>
-            <div class="gallery-caption">
-              <h4 class="gallery-caption-title">IFA Institute of Finance & Accounting</h4>
-              <p class="gallery-caption-sub">Lecturing Power BI, DAX & Advanced Excel</p>
-            </div>
-          </div>
+        <p>
+          <strong>Faculty of Accounting & Finance</strong>, Institute of Finance and Accounting (IFA)
+          <br>
+          Phnom Penh, Cambodia
+        </p>
 
-          <div class="gallery-card">
-            <div class="gallery-img-wrapper">
-              <img src="assets/img/training_eurocham.jpg" alt="EuroCham Masterclass" loading="lazy">
-            </div>
-            <div class="gallery-caption">
-              <h4 class="gallery-caption-title">EuroCham Cambodia</h4>
-              <p class="gallery-caption-sub">Corporate Financial Analytics Masterclass</p>
-            </div>
-          </div>
+        <br>
+        <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
 
-          <div class="gallery-card">
-            <div class="gallery-img-wrapper">
-              <img src="assets/img/digital_finance_transform.jpg" alt="Digital Finance Transformation" loading="lazy">
-            </div>
-            <div class="gallery-caption">
-              <h4 class="gallery-caption-title">Digital Finance Transformation</h4>
-              <p class="gallery-caption-sub">Comin Asia Enterprise Adoption</p>
-            </div>
-          </div>
-
-          <div class="gallery-card">
-            <div class="gallery-img-wrapper">
-              <img src="assets/img/powerbi_dashboard_preview.jpg" alt="Power BI Dashboard Preview" loading="lazy">
-            </div>
-            <div class="gallery-caption">
-              <h4 class="gallery-caption-title">Executive BI Dashboards</h4>
-              <p class="gallery-caption-sub">KPI Storytelling & Reporting</p>
-            </div>
-          </div>
-
-        </div>
       </section>
-
-    </main>
-  </div>
-
-  <!-- Site Footer -->
-  <footer class="site-footer">
-    <div class="footer-container">
-      <p>&copy; 2026 Suon Lysorng. Built for <a href="https://lysorngsuon.github.io/" target="_blank">lysorngsuon.github.io</a>.</p>
-      <p>Hosted on GitHub Pages &bull; Academic & Industry Portfolio</p>
+      
+      <footer></footer>
     </div>
-  </footer>
 
-  <!-- Scripts -->
-  <script src="assets/js/main.js"></script>
-</body>
+  </body>
 </html>
-
