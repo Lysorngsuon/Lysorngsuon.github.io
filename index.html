@@ -1,405 +1,2006 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <title>Suon Lysorng | Data Analyst & Lecturer</title>
+﻿<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lysorng Suon | Finance Data Analyst & Power BI Trainer</title>
+  <meta name="description" content="Professional portfolio of Lysorng Suon — Finance Data Analyst, Power BI & Excel Trainer, specializing in financial reporting, business intelligence, and digital transformation.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Suon Lysorng is a Data Analyst in the Finance Division at Comin Asia and Lecturer at the Institute of Finance and Accounting (IFA) in Phnom Penh, Cambodia. His work focuses on financial intelligence, Power BI, Power Platform, SAP Business One, and credit risk analytics.">
-    <meta name="keywords" content="Suon Lysorng, Lysorng Suon, Comin Asia, IFA, Power BI, DAX, SAP Business One, Financial Analyst, Cambodia SME, ACCA">
-    
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Suon Lysorng | Data Analyst & Lecturer">
-    <meta property="og:url" content="https://lysorngsuon.github.io">
-    <meta property="og:site_name" content="Suon Lysorng | Academic & Industry Portfolio">
-    <meta property="og:description" content="Data Analyst in Finance Division at Comin Asia, Lecturer at IFA, and ACCA FIA Candidate.">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:image" content="./assets/img/profile.jpg">
-    
-    <link rel="canonical" href="https://lysorngsuon.github.io"/>
-    <link rel="shortcut icon" type="image/jpeg" href="./assets/img/profile.jpg">
-    
-    <!-- Academicons & FontAwesome (Exact like luboshanus.github.io) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous">
-    
-    <!-- Minimal Light CSS Files -->
-    <link rel="stylesheet" href="./assets/css/font_sans_serif.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/publications.css">
-    <link rel="stylesheet" href="./assets/css/navigation.css">
-    
-    <script type="text/javascript">
-      function toggle_vis(id) {
-          var e = document.getElementById(id);
-          if (e.style.display == 'none' || e.style.display == '')
-              e.style.display = 'block';
-          else
-              e.style.display = 'none';
-      }
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
 
-      function myFunction() {
-          var x = document.getElementById("myLinks");
-          if (x.style.display === "block") {
-              x.style.display = "none";
-          } else {
-              x.style.display = "block";
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              blue: '#173F73',
+              'blue-dark': '#0F2B52',
+              green: '#16834A',
+              yellow: '#F2C811',
+              text: '#172033',
+              muted: '#64748B',
+              bg: '#F5F7FA',
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            display: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
+            mono: ['Fira Code', 'monospace'],
+          },
+          boxShadow: {
+            'brand': '0 4px 20px -2px rgba(23, 63, 115, 0.25)',
+            'brand-green': '0 4px 20px -2px rgba(22, 131, 74, 0.25)',
+            'brand-yellow': '0 4px 20px -2px rgba(242, 200, 17, 0.35)',
+            'card': '0 10px 30px -5px rgba(23, 32, 51, 0.08)',
+            'subtle': '0 2px 10px rgba(0, 0, 0, 0.04)',
           }
+        }
       }
+    }
+  </script>
 
-      window.onscroll = function() {
-          var btn = document.getElementById("back-to-top");
-          if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-              btn.style.display = "block";
-          } else {
-              btn.style.display = "none";
-          }
-      };
-   </script>
-  </head>
-  <body>
-    
-    <!-- Top Navigation Bar -->
-    <div class="topnav">
-      
-      <span class="logos">
-        <a href="#about-me"><strong>SUON LYSORNG</strong></a>
-      </span>
+  <style>
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: #F5F7FA;
+      color: #172033;
+    }
+    h1, h2, h3, h4, .font-display {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    .glass-nav {
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(12px);
+    }
+    .animate-float {
+      animation: float 4s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+  </style>
+</head>
+<body class="bg-brand-bg text-brand-text font-sans antialiased selection:bg-brand-blue selection:text-white">
 
-      <div id="myLinks">
-        <a class="normal right" href="./#contact">Contact</a>
-        <a class="normal" href="./#conferences">Talks & Seminars</a>
-        <a class="normal" href="./#projects">Projects</a>
-        <a class="normal" href="./#teaching">Teaching</a>
-        <a class="normal" href="./#publications">Publications</a>
-        <a class="normal" href="./#about-me">Bio</a>
-      </div>
-
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
-
-    <!-- Back to Top Button -->
-    <button id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">Back to Top</button>
-    
-    <!-- Main Two-Column Wrapper -->
-    <div class="wrapper">
-      
-      <!-- Fixed Left Sidebar Header -->
-      <header>
-        <a class="image avatar"><img src="./assets/img/profile.jpg" alt="Suon Lysorng" /></a>
-
-        <h1>Suon Lysorng</h1>
-
-        <position style="font-size:1.10rem;">Data Analyst & Lecturer</position>
-        <br>
+  <!-- ==================== 1. TOP NAVBAR ==================== -->
+  <header id="navbar" class="fixed top-0 left-0 right-0 z-50 glass-nav border-b border-slate-200/80 shadow-sm py-3 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between">
         
-        <a href="https://www.linkedin.com/in/lysorng-suon-563a44244/" target="_blank" rel="noopener">
-          <autocolor>Comin Asia (Finance Division)</autocolor>
+        <!-- Logo / Monogram -->
+        <a href="#" class="flex items-center gap-3 group focus:outline-none">
+          <div class="w-10 h-10 rounded-xl bg-brand-blue flex items-center justify-center shadow-brand group-hover:scale-105 transition-transform duration-200">
+            <span class="font-display font-extrabold text-white text-lg tracking-wider">LS</span>
+          </div>
+          <div>
+            <span class="font-display font-bold text-brand-text text-base tracking-tight block">
+              Lysorng Suon
+            </span>
+            <span class="text-[11px] font-medium text-brand-muted tracking-wide flex items-center gap-1.5">
+              <span class="w-1.5 h-1.5 rounded-full bg-brand-green"></span>
+              Finance Data Analyst
+            </span>
+          </div>
         </a>
-        <br>
-        
-        <a href="https://www.ifa.edu.kh/" target="_blank" rel="noopener">
-          <autocolor>Institute of Finance and Accounting</autocolor>
-        </a>
-        <br>
-        
-        <email>lysorngsuon (at) gmail.com</email>
-        <br>
-        <email>(+855) 98 926 775</email>
 
-        <br>
-        <div class="social-icons">
-          <a style="margin: 0 5px 0 0" href="assets/docs/SUON_LYSORNG_CV.pdf" target="_blank" title="Curriculum Vitae">
-            <i class="ai ai-cv" style="font-size:1.3rem;"></i>
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden lg:flex items-center gap-1 xl:gap-2">
+          <a href="#about" class="px-3 py-1.5 text-sm font-medium text-slate-700 hover:text-brand-blue hover:bg-slate-100/70 rounded-lg transition-colors">About</a>
+          <a href="#flagship" class="px-3 py-1.5 text-sm font-bold text-brand-blue bg-brand-blue/5 hover:bg-brand-blue/10 rounded-lg transition-colors">Flagship Research</a>
+          <a href="#publications" class="px-3 py-1.5 text-sm font-semibold text-slate-700 hover:text-brand-blue hover:bg-slate-100/70 rounded-lg transition-colors">Publications</a>
+          <a href="#projects" class="px-3 py-1.5 text-sm font-medium text-slate-700 hover:text-brand-blue hover:bg-slate-100/70 rounded-lg transition-colors">Projects</a>
+          <a href="#skills" class="px-3 py-1.5 text-sm font-medium text-slate-700 hover:text-brand-blue hover:bg-slate-100/70 rounded-lg transition-colors">Skills</a>
+          <a href="#experience" class="px-3 py-1.5 text-sm font-medium text-slate-700 hover:text-brand-blue hover:bg-slate-100/70 rounded-lg transition-colors">Experience</a>
+          <a href="#training" class="px-3 py-1.5 text-sm font-medium text-slate-700 hover:text-brand-blue hover:bg-slate-100/70 rounded-lg transition-colors">Training</a>
+          <a href="#education" class="px-3 py-1.5 text-sm font-medium text-slate-700 hover:text-brand-blue hover:bg-slate-100/70 rounded-lg transition-colors">Education</a>
+          <a href="#contact" class="px-3 py-1.5 text-sm font-medium text-slate-700 hover:text-brand-blue hover:bg-slate-100/70 rounded-lg transition-colors">Contact</a>
+        </nav>
+
+        <!-- Right CTAs -->
+        <div class="hidden lg:flex items-center gap-3">
+          <a href="documents/SOUN_LYSORNG_CV_2026.pdf" download="SOUN_LYSORNG_CV_2026.pdf" target="_blank" class="inline-flex items-center gap-2 px-3.5 py-2 text-xs font-semibold text-brand-blue bg-brand-blue/10 hover:bg-brand-blue/15 border border-brand-blue/20 rounded-lg transition-colors">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v12m0 0l-4-4m4 4l4-4m-9 8h10"></path></svg>
+            <span>Download CV</span>
           </a>
-          <a style="margin: 0 5px 0 0" href="https://github.com/Lysorngsuon" target="_blank" title="GitHub">
-            <i class="fab fa-github"></i>
-          </a>
-          <a style="margin: 0 5px 0 0" href="https://www.linkedin.com/in/lysorng-suon-563a44244/" target="_blank" title="LinkedIn">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a style="margin: 0 5px 0 0" href="https://doi.org/10.5682/9786062822002" target="_blank" title="Published Research DOI">
-            <i class="ai ai-doi" style="font-size:1.2rem;"></i>
+          <a href="#contact" class="inline-flex items-center gap-2 px-4 py-2 text-xs font-bold text-white bg-brand-blue hover:bg-brand-blue-dark rounded-lg shadow-brand transition-all">
+            <span>Get in Touch</span>
           </a>
         </div>
-        <br>
-      </header>
-      
-      <!-- Right Content Section -->
-      <section>
 
-        <h1 id="about-me"></h1>
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-menu-btn" class="lg:hidden p-2 text-slate-700 hover:text-brand-blue hover:bg-slate-100 rounded-lg" aria-label="Toggle menu">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+        </button>
 
-        <h2 id="short-bio">Short Bio</h2>
+      </div>
 
-        <p>I am a <strong>Data Analyst in the Finance Division</strong> at <strong>Comin Asia</strong> (EPC conglomerate operating across Cambodia and Laos) and a <strong>Lecturer in Advanced Excel, Power BI & Data Analytics</strong> at the <strong>Institute of Finance and Accounting (IFA)</strong> in Phnom Penh, Cambodia. Alongside my full-time industry practice, I am actively pursuing <strong>ACCA / FIA</strong> at BSA Cambodia (FA1 Passed).</p>
+      <!-- Mobile Dropdown -->
+      <div id="mobile-menu" class="hidden lg:hidden mt-3 pt-3 border-t border-slate-200/80 space-y-1.5">
+        <a href="#about" class="block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 rounded-lg">About</a>
+        <a href="#flagship" class="block px-3 py-2 text-sm font-bold text-brand-blue hover:bg-brand-blue/10 rounded-lg">Flagship Research</a>
+        <a href="#publications" class="block px-3 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-100 rounded-lg">Publications</a>
+        <a href="#projects" class="block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 rounded-lg">Projects</a>
+        <a href="#skills" class="block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 rounded-lg">Skills</a>
+        <a href="#experience" class="block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 rounded-lg">Experience</a>
+        <a href="#training" class="block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 rounded-lg">Training (3,000+ Trainees)</a>
+        <a href="#education" class="block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 rounded-lg">Education</a>
+        <a href="#contact" class="block px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 rounded-lg">Contact</a>
+        <div class="pt-2 flex flex-col gap-2">
+          <a href="documents/SOUN_LYSORNG_CV_2026.pdf" download="SOUN_LYSORNG_CV_2026.pdf" class="text-center px-4 py-2 text-xs font-bold text-brand-blue bg-brand-blue/10 rounded-lg">Download CV (PDF)</a>
+          <a href="#contact" class="text-center px-4 py-2 text-xs font-bold text-white bg-brand-blue rounded-lg">Get in Touch</a>
+        </div>
+      </div>
 
-        <p>At Comin Asia, I spearhead digital transformation across 8 business divisions (Finance, Procurement, Inventory, IT, QS, HSEQ, Design & Engineering, and Logistics). I lead the transition from manual, paper-based forms to in-house <strong>Microsoft Power Platform</strong> solutions (Power Apps, Power Automate, SharePoint, Power BI) seamlessly integrated into <strong>SAP Business One via the Service Layer API</strong> for automated Journal Entry posting and workflow governance.</p>
+    </div>
+  </header>
 
-        <p>As an educator, I design project-based courses connecting accounting and financial modeling with business intelligence, having trained over <strong>3,000+ students and corporate professionals</strong>.</p>
+  <main class="pt-20">
 
-        <h3 id="research-interests">Core expertise</h3>
+    <!-- ==================== 2. HERO SECTION ==================== -->
+    <section class="relative pt-12 pb-16 lg:pt-20 lg:pb-24 overflow-hidden">
+      <!-- Glow Accents -->
+      <div class="absolute top-12 left-1/2 -translate-x-1/2 w-full max-w-7xl h-96 pointer-events-none -z-10">
+        <div class="absolute top-0 right-10 w-80 h-80 bg-brand-blue/8 rounded-full blur-3xl"></div>
+        <div class="absolute bottom-10 left-10 w-72 h-72 bg-brand-yellow/15 rounded-full blur-3xl"></div>
+        <div class="absolute top-20 left-1/3 w-64 h-64 bg-brand-green/8 rounded-full blur-3xl"></div>
+      </div>
 
-        <ul>
-          <li><strong>Financial Intelligence & Analytics:</strong> Power BI (DAX, Star Schema, Power Query), financial statement analysis (P&L, Balance Sheet, Gross Profit, Project P&L), 14 Financial Ratios, 3-Scenario Forecasting, Credit Risk Scorecards.</li>
-          <li><strong>Enterprise Automation & ERP:</strong> Microsoft Power Platform (Power Apps, Power Automate, SharePoint), SAP Business One Service Layer API, SAP SQL, Python automated data validation.</li>
-        </ul>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+          
+          <!-- Left Column -->
+          <div class="lg:col-span-7 space-y-6">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-slate-200/90 text-slate-800 text-xs font-semibold shadow-subtle">
+              <span class="w-2 h-2 rounded-full bg-brand-green animate-pulse"></span>
+              <span>Available for Corporate Training, BI Consulting & Academic Research</span>
+            </div>
 
-        <h3 id="work-in-progress">Active research & initiatives</h3>
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-display font-extrabold text-brand-text tracking-tight leading-[1.12]">
+              Turning Financial Data into <span class="text-brand-blue">Business</span> <span class="relative inline-block text-brand-blue">
+                Intelligence
+                <span class="absolute bottom-1.5 left-0 w-full h-2.5 bg-brand-yellow/50 -z-10 rounded-sm"></span>
+              </span>.
+            </h1>
 
-        <ul>
-          <li>Cambodia SME Credit Risk Intelligence Framework (calibrated to NBC, NIS, and World Bank benchmarks)</li>
-          <li>Enterprise Low-Code SAP B1 Middleware Architecture for Cross-Border Construction & Engineering</li>
-        </ul>
+            <p class="text-lg sm:text-xl font-medium text-slate-700 leading-relaxed max-w-2xl">
+              I am a Finance Data Analyst and Power BI & Excel Trainer focused on transforming financial and business data into meaningful insights, automated reporting, and better decision-making.
+            </p>
 
-        <h3 id="news">News & Milestones</h3>
+            <p class="text-sm sm:text-base text-slate-600 leading-relaxed max-w-2xl">
+              I connect finance, business operations, and technology by transforming business data into meaningful financial insights, automated reporting, and better decisions.
+            </p>
 
-        <ul>
-          <li><strong>[Oct 2026]</strong> Published research portfolio: <em>Cambodia SME Financial Intelligence & Credit Risk Analysis</em> (12-tab Excel model, Python ETL pipeline with 12 integrity checks, 5-page star-schema Power BI dashboard).</li>
-          <li><strong>[2026]</strong> Published author and co-author of two international research papers in <em>Digitalization and Knowledge: Ethical Challenges and Impact on Society</em>, Editura Universitară, Romania (ISBN 978-606-28-2200-2, DOI: <a href="https://doi.org/10.5682/9786062822002" target="_blank">10.5682/9786062822002</a>).</li>
-          <li><strong>[Feb 2025]</strong> Appointed Data Analyst in Finance Division at Comin Asia.</li>
-          <li><strong>[2025]</strong> Completed <strong>Erasmus+ Mobility for Higher Education</strong> at Universitatea Dimitrie Cantemir in Târgu Mureș, Romania.</li>
-          <li><strong>[2025]</strong> Graduated Bachelor’s Degree in SME Management from LSI Business School.</li>
-          <li><strong>[2024]</strong> Graduated Leadership Development Program at <strong>IATSS Forum</strong> (Suzuka, Japan).</li>
-          <li><strong>[May 2023]</strong> Appointed Lecturer at the Institute of Finance and Accounting (IFA) for Advanced Excel & Power BI.</li>
-        </ul>
+            <!-- Action Buttons -->
+            <div class="pt-2 flex flex-wrap items-center gap-3.5">
+              <a href="#flagship" class="inline-flex items-center gap-2 px-6 py-3.5 text-sm font-bold text-white bg-brand-blue hover:bg-brand-blue-dark rounded-xl shadow-brand hover:shadow-lg transition-all group">
+                <span>Explore Flagship Research</span>
+                <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+              </a>
 
-        <h1 id="publications"></h1>
+              <a href="documents/SOUN_LYSORNG_CV_2026.pdf" download="SOUN_LYSORNG_CV_2026.pdf" target="_blank" class="inline-flex items-center gap-2 px-5 py-3.5 text-sm font-bold text-brand-blue bg-white hover:bg-slate-50 border border-slate-300 rounded-xl shadow-subtle hover:shadow-card transition-all">
+                <svg class="w-4 h-4 text-brand-blue" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v12m0 0l-4-4m4 4l4-4m-9 8h10"></path></svg>
+                <span>Download CV</span>
+              </a>
 
-        <h2>Publications</h2>
+              <a href="#contact" class="inline-flex items-center gap-1.5 px-4 py-3.5 text-sm font-semibold text-slate-700 hover:text-brand-blue transition-colors">
+                <span>Get in Touch &rarr;</span>
+              </a>
+            </div>
 
-        <div class="publications">
-          <ol class="bibliography">
+            <!-- Three Pillars Ribbon -->
+            <div class="pt-4 grid grid-cols-1 sm:grid-cols-3 gap-3 border-t border-slate-200/80">
+              <div class="flex items-center gap-2.5">
+                <div class="w-3 h-3 rounded-full bg-brand-blue flex-shrink-0"></div>
+                <div class="text-xs">
+                  <span class="font-bold text-slate-900 block">Strategic Finance</span>
+                  <span class="text-slate-600">Accounting Equilibrium</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-2.5">
+                <div class="w-3 h-3 rounded-full bg-brand-green flex-shrink-0"></div>
+                <div class="text-xs">
+                  <span class="font-bold text-slate-900 block">Advanced Excel</span>
+                  <span class="text-slate-600">Power Query Automation</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-2.5">
+                <div class="w-3 h-3 rounded-full bg-brand-yellow flex-shrink-0"></div>
+                <div class="text-xs">
+                  <span class="font-bold text-slate-900 block">Power BI & DAX</span>
+                  <span class="text-slate-600">Executive Dashboards</span>
+                </div>
+              </div>
+            </div>
 
-            <!-- Publication 1 -->
-            <li>
-              <div class="pub-row">
-                <div class="abbr">
-                  <img src="./assets/img/digital_finance_transform.jpg" class="teaser" alt="Trade Paper" />
-                  <abbr class="badge">Book Chapter</abbr>
+          </div>
+
+          <!-- Right Column: Profile Photo (Updated to data_analyst_power_bi_excel_profile_under_1MB.jpg) -->
+          <div class="lg:col-span-5 relative flex justify-center">
+            <div class="relative w-full max-w-md">
+              <div class="absolute -inset-2 rounded-3xl bg-gradient-to-tr from-brand-blue via-brand-yellow/30 to-brand-green/30 opacity-70 blur-lg -z-10"></div>
+              
+              <div class="relative bg-white p-3 rounded-3xl shadow-xl border border-slate-200/90 overflow-hidden">
+                <img src="images/profile-hero.jpg" alt="Lysorng Suon - Finance Data Analyst & Power BI Trainer" class="w-full h-[430px] sm:h-[480px] object-cover object-center rounded-2xl shadow-inner">
+
+                <!-- Floating Badge 1: Trainees -->
+                <div class="absolute top-6 right-6 bg-white/95 backdrop-blur-md px-3.5 py-2.5 rounded-xl shadow-lg border border-slate-100 flex items-center gap-3 animate-float">
+                  <div class="w-9 h-9 rounded-lg bg-amber-500/10 flex items-center justify-center text-amber-800 font-bold">
+                    👥
+                  </div>
+                  <div>
+                    <span class="text-xs font-bold text-slate-900 block">3,000+ Trainees</span>
+                    <span class="text-[11px] text-slate-600 font-medium">IFA & EuroCham</span>
+                  </div>
+                </div>
+
+                <!-- Floating Badge 2: Accounting Equilibrium -->
+                <div class="absolute bottom-6 left-6 bg-white/95 backdrop-blur-md px-3.5 py-2.5 rounded-xl shadow-lg border border-slate-100 flex items-center gap-3">
+                  <div class="w-9 h-9 rounded-lg bg-brand-blue/10 flex items-center justify-center text-brand-blue font-bold">
+                    ⚖️
+                  </div>
+                  <div>
+                    <span class="text-xs font-bold text-slate-900 block">Accounting Balanced</span>
+                    <span class="text-[11px] text-brand-green font-semibold">$0.00 Discrepancy</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Global Stats Grid Bar -->
+        <div class="mt-14 pt-8 border-t border-slate-200/80 grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+          <div class="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-subtle hover:shadow-card transition-shadow">
+            <span class="text-3xl sm:text-4xl font-display font-extrabold tracking-tight block text-brand-blue">8+</span>
+            <span class="text-sm font-bold text-slate-900 mt-1 block">Years Experience</span>
+            <span class="text-xs text-slate-600 block mt-0.5">Finance & BI analytics</span>
+          </div>
+          <div class="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-subtle hover:shadow-card transition-shadow">
+            <span class="text-3xl sm:text-4xl font-display font-extrabold tracking-tight block text-amber-600">3,000+</span>
+            <span class="text-sm font-bold text-slate-900 mt-1 block">Trainees Guided</span>
+            <span class="text-xs text-slate-600 block mt-0.5">Professionals & students</span>
+          </div>
+          <div class="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-subtle hover:shadow-card transition-shadow">
+            <span class="text-3xl sm:text-4xl font-display font-extrabold tracking-tight block text-brand-green">50%</span>
+            <span class="text-sm font-bold text-slate-900 mt-1 block">Reporting Automated</span>
+            <span class="text-xs text-slate-600 block mt-0.5">Efficiency gain at RMA Group</span>
+          </div>
+          <div class="bg-white p-5 rounded-2xl border border-slate-200/80 shadow-subtle hover:shadow-card transition-shadow">
+            <span class="text-3xl sm:text-4xl font-display font-extrabold tracking-tight block text-brand-blue">15+</span>
+            <span class="text-sm font-bold text-slate-900 mt-1 block">Enterprise Projects</span>
+            <span class="text-xs text-slate-600 block mt-0.5">Regional dashboard systems</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== 3. ABOUT SECTION ==================== -->
+    <section id="about" class="py-20 lg:py-28 bg-white border-y border-slate-200/80">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="max-w-3xl mb-16">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-brand-blue/10 text-brand-blue text-xs font-bold uppercase tracking-wider mb-3">
+            About Lysorng Suon
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-display font-extrabold text-brand-text tracking-tight">
+            Connecting Finance, Business Operations & Technology
+          </h2>
+          <p className="mt-3 text-base sm:text-lg text-slate-600 font-medium">
+            Transforming complex transactional spreadsheets into automated executive insights, verified financial models, and resilient business decisions.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-20">
+          <div class="lg:col-span-5">
+            <div class="relative">
+              <div class="absolute -inset-2 bg-gradient-to-tr from-brand-blue/20 to-brand-green/20 rounded-3xl blur-md"></div>
+              <div class="relative bg-slate-50 p-2.5 rounded-3xl border border-slate-200 shadow-lg overflow-hidden">
+                <img src="images/profile-about.jpg" alt="Lysorng Suon professional action portrait" class="w-full h-[400px] object-cover object-center rounded-2xl shadow-inner">
+                <div class="p-4 bg-white/95 backdrop-blur-sm rounded-xl mt-2.5 border border-slate-100">
+                  <p class="text-xs font-semibold text-slate-800 italic">
+                    "Data without financial context is just noise. Financial analysis without automated architecture is an operational bottleneck."
+                  </p>
+                  <p class="text-[11px] font-bold text-brand-blue mt-1.5 text-right">— Lysorng Suon</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-7 space-y-5 text-slate-700 text-sm sm:text-base leading-relaxed">
+            <p>
+              I am a dedicated <strong class="text-slate-900 font-semibold">Finance Data Analyst</strong> and professional corporate trainer specializing in Microsoft Power BI, Advanced Excel, SQL, and automated financial reporting architectures.
+            </p>
+            <p>
+              With over <strong class="text-slate-900 font-semibold">8 years of professional experience</strong> spanning corporate finance, human resources, operations, and business intelligence, I have engineered enterprise analytics dashboards, automated multi-currency reporting workflows, and delivered data-driven decision frameworks for multinational corporations across Cambodia, Laos, Vietnam, and Australia.
+            </p>
+            <p>
+              Currently serving as <strong class="text-slate-900 font-semibold">Data Analyst at Comin Asia</strong>, I lead analytical initiatives that make financial reporting and operational analytics more dynamic, self-refreshing, and transparent. Previously at <strong class="text-slate-900 font-semibold">RMA Cambodia Group</strong>, I built automated reporting models for 8 operating entities that slashed routine manual data processing time by 50%.
+            </p>
+            <p>
+              In parallel with corporate practice, I am passionate about academic advancement and professional mentorship. As a certified trainer at the <strong class="text-slate-900 font-semibold">Institute of Finance and Accounting (IFA)</strong> and <strong class="text-slate-900 font-semibold">EuroCham Cambodia</strong>, I have guided over 3,000 students and corporate professionals in mastering Power Query ETL, star-schema data modeling, and advanced DAX measures.
+            </p>
+
+            <div class="pt-2 flex flex-wrap gap-2 text-xs font-semibold text-slate-600">
+              <span class="px-3 py-1 bg-slate-100 rounded-lg border border-slate-200">Phnom Penh, Cambodia</span>
+              <span class="px-3 py-1 bg-slate-100 rounded-lg border border-slate-200">Erasmus+ Scholar (EU)</span>
+              <span class="px-3 py-1 bg-slate-100 rounded-lg border border-slate-200">IATSS Forum Japan Fellow</span>
+              <span class="px-3 py-1 bg-slate-100 rounded-lg border border-slate-200">Cambridge & NYIF Certified</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 Brand Anchors Cards -->
+        <div>
+          <div class="text-center max-w-2xl mx-auto mb-10">
+            <h3 class="text-2xl font-display font-extrabold text-brand-text">
+              My Three Professional Anchors
+            </h3>
+            <p class="text-sm text-slate-600 mt-2">
+              Every project and corporate training program is anchored in three tightly integrated disciplines:
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Pillar 1: Blue -->
+            <div class="p-7 rounded-2xl bg-white border-2 border-brand-blue/30 shadow-subtle hover:shadow-brand transition-all">
+              <div class="w-12 h-12 rounded-xl bg-brand-blue text-white flex items-center justify-center mb-5 shadow-brand text-xl font-bold">
+                🛡️
+              </div>
+              <div class="flex items-center gap-2 mb-2">
+                <span class="w-2.5 h-2.5 rounded-full bg-brand-blue"></span>
+                <span class="text-xs font-bold uppercase tracking-wider text-brand-blue">Pillar 1: Blue</span>
+              </div>
+              <h4 class="text-xl font-display font-bold text-slate-900 mb-2.5">
+                Strategic Finance & Empirical Trust
+              </h4>
+              <p class="text-sm text-slate-600 leading-relaxed mb-4">
+                Corporate finance requires uncompromising mathematical equilibrium. Every model adheres to double-entry balance sheet proof, transparent cash flow attribution, and empirical macroeconomic benchmarking.
+              </p>
+              <ul class="space-y-1.5 text-xs text-slate-700 font-medium">
+                <li class="flex items-center gap-2">✓ Balance Sheet Equilibrium ($0.00 Discrepancy)</li>
+                <li class="flex items-center gap-2">✓ Credit Risk Sensitivity Scoring Models</li>
+                <li class="flex items-center gap-2">✓ Working Capital & Cash Flow Diagnostics</li>
+              </ul>
+            </div>
+
+            <!-- Pillar 2: Green -->
+            <div class="p-7 rounded-2xl bg-white border-2 border-brand-green/30 shadow-subtle hover:shadow-brand-green transition-all">
+              <div class="w-12 h-12 rounded-xl bg-brand-green text-white flex items-center justify-center mb-5 shadow-brand-green text-xl font-bold">
+                📊
+              </div>
+              <div class="flex items-center gap-2 mb-2">
+                <span class="w-2.5 h-2.5 rounded-full bg-brand-green"></span>
+                <span class="text-xs font-bold uppercase tracking-wider text-brand-green">Pillar 2: Green</span>
+              </div>
+              <h4 class="text-xl font-display font-bold text-slate-900 mb-2.5">
+                Microsoft Excel & Automation
+              </h4>
+              <p class="text-sm text-slate-600 leading-relaxed mb-4">
+                Moving beyond static workbooks. Harnessing Power Query ETL, dynamic array formulas, and automated reconciliation rules to convert messy operational inputs into self-updating financial pipelines.
+              </p>
+              <ul class="space-y-1.5 text-xs text-slate-700 font-medium">
+                <li class="flex items-center gap-2">✓ Automated Power Query Data Ingestion</li>
+                <li class="flex items-center gap-2">✓ Dynamic 3-Statement Production Models</li>
+                <li class="flex items-center gap-2">✓ 50% Time Reduction in Routine Reporting</li>
+              </ul>
+            </div>
+
+            <!-- Pillar 3: Yellow -->
+            <div class="p-7 rounded-2xl bg-white border-2 border-amber-400/40 shadow-subtle hover:shadow-brand-yellow transition-all">
+              <div class="w-12 h-12 rounded-xl bg-brand-yellow text-slate-900 flex items-center justify-center mb-5 shadow-brand-yellow text-xl font-bold">
+                📈
+              </div>
+              <div class="flex items-center gap-2 mb-2">
+                <span class="w-2.5 h-2.5 rounded-full bg-brand-yellow"></span>
+                <span class="text-xs font-bold uppercase tracking-wider text-amber-800">Pillar 3: Yellow</span>
+              </div>
+              <h4 class="text-xl font-display font-bold text-slate-900 mb-2.5">
+                Power BI & Business Intelligence
+              </h4>
+              <p class="text-sm text-slate-600 leading-relaxed mb-4">
+                Elevating data into decision systems. Architecting star-schema tabular models, authoring robust DAX calculations, and crafting intuitive visual dashboards that C-level leaders rely on.
+              </p>
+              <ul class="space-y-1.5 text-xs text-slate-700 font-medium">
+                <li class="flex items-center gap-2">✓ Dimensional Star-Schema Architecture</li>
+                <li class="flex items-center gap-2">✓ Advanced DAX & Time-Intelligence Measures</li>
+                <li class="flex items-center gap-2">✓ Executive Multi-View Decision Portals</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== 4. FLAGSHIP PROJECT SECTION ==================== -->
+    <section id="flagship" class="py-20 lg:py-28 bg-slate-50 relative overflow-hidden">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+        
+        <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-12">
+          <div class="max-w-3xl">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-brand-blue text-white text-xs font-bold uppercase tracking-wider mb-3 shadow-sm">
+              Flagship Independent Research Project
+            </div>
+            <h2 class="text-3xl sm:text-4xl font-display font-extrabold text-brand-text tracking-tight">
+              Cambodia SME Financial Intelligence & Credit Risk Analysis
+            </h2>
+            <p class="mt-2 text-base sm:text-lg text-slate-600 font-medium">
+              An Applied Financial Analytics Framework for SME Financial Performance, Sustainability and Credit Risk Assessment in Cambodia.
+            </p>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <a href="documents/Cambodia_SME_Financial_Research_Portfolio.pdf" download="Cambodia_SME_Financial_Research_Portfolio.pdf" target="_blank" class="inline-flex items-center gap-2 px-5 py-3 text-xs sm:text-sm font-bold text-white bg-brand-blue hover:bg-brand-blue-dark rounded-xl shadow-brand hover:shadow-lg transition-all">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v12m0 0l-4-4m4 4l4-4m-9 8h10"></path></svg>
+              <span>Download Academic PDF (15 Pages)</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Highlight Stats Ribbon -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+          <div class="bg-white p-4.5 rounded-xl border border-slate-200/90 shadow-subtle">
+            <span class="text-2xl sm:text-3xl font-display font-extrabold text-brand-blue block">300</span>
+            <span class="text-xs font-bold text-slate-900 block mt-0.5">Firm-Years Panel</span>
+            <span class="text-[11px] text-slate-600">100 SMEs × 3 Years (2023–2025)</span>
+          </div>
+          <div class="bg-white p-4.5 rounded-xl border border-slate-200/90 shadow-subtle">
+            <span class="text-2xl sm:text-3xl font-display font-extrabold text-brand-green block">$0.00</span>
+            <span class="text-xs font-bold text-slate-900 block mt-0.5">Balance Sheet Discrepancy</span>
+            <span class="text-[11px] text-brand-green font-semibold">100% Accounting Equilibrium</span>
+          </div>
+          <div class="bg-white p-4.5 rounded-xl border border-slate-200/90 shadow-subtle">
+            <span class="text-2xl sm:text-3xl font-display font-extrabold text-amber-600 block">33</span>
+            <span class="text-xs font-bold text-slate-900 block mt-0.5">Power BI Visual Containers</span>
+            <span class="text-[11px] text-slate-600">Across 5 Interactive Dashboard Views</span>
+          </div>
+          <div class="bg-white p-4.5 rounded-xl border border-slate-200/90 shadow-subtle">
+            <span class="text-2xl sm:text-3xl font-display font-extrabold text-brand-blue block">26 / 26</span>
+            <span class="text-xs font-bold text-slate-900 block mt-0.5">Validation Tests Passed</span>
+            <span class="text-[11px] text-slate-600">Automated Accounting & Metric Tests</span>
+          </div>
+        </div>
+
+        <!-- Main Interactive Dashboard Showcase -->
+        <div class="bg-white rounded-3xl border border-slate-200/90 shadow-card p-6 sm:p-8 mb-12">
+          
+          <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4 pb-6 border-b border-slate-100">
+            <div>
+              <span class="text-xs font-bold text-brand-blue uppercase tracking-wider block">Interactive Power BI Showcase</span>
+              <h3 id="dashboard-view-title" class="text-xl sm:text-2xl font-display font-bold text-brand-text">
+                1. Executive Financial Overview Dashboard
+              </h3>
+              <p id="dashboard-view-desc" class="text-xs sm:text-sm text-slate-600 mt-1 max-w-2xl">
+                Consolidated financial performance KPIs, revenue distribution, and DuPont return decomposition.
+              </p>
+            </div>
+
+            <!-- View Switcher Tabs -->
+            <div class="flex flex-wrap gap-1.5 p-1 bg-slate-100 rounded-xl">
+              <button onclick="switchDashboardView(0)" class="view-tab-btn active px-3 py-1.5 text-xs font-bold rounded-lg bg-white text-brand-blue shadow-sm">View 1</button>
+              <button onclick="switchDashboardView(1)" class="view-tab-btn px-3 py-1.5 text-xs font-semibold rounded-lg text-slate-600 hover:text-slate-900">View 2</button>
+              <button onclick="switchDashboardView(2)" class="view-tab-btn px-3 py-1.5 text-xs font-semibold rounded-lg text-slate-600 hover:text-slate-900">View 3</button>
+              <button onclick="switchDashboardView(3)" class="view-tab-btn px-3 py-1.5 text-xs font-semibold rounded-lg text-slate-600 hover:text-slate-900">View 4</button>
+              <button onclick="switchDashboardView(4)" class="view-tab-btn px-3 py-1.5 text-xs font-semibold rounded-lg text-slate-600 hover:text-slate-900">View 5</button>
+            </div>
+          </div>
+
+          <!-- Screenshot Frame -->
+          <div class="mt-6 relative rounded-2xl overflow-hidden border border-slate-200/80 bg-slate-950 shadow-inner group">
+            <img id="dashboard-main-img" src="images/projects/pbi_page1_executive_overview.png" alt="Power BI Dashboard View" class="w-full h-auto object-cover rounded-xl transition-all duration-300">
+            
+            <div class="absolute bottom-0 inset-x-0 p-4 bg-gradient-to-t from-slate-900/90 via-slate-900/40 to-transparent flex items-center justify-between text-white text-xs">
+              <span class="font-medium tracking-wide">
+                Built natively in Microsoft Power BI (PBIR v4.0 + TMDL Architecture)
+              </span>
+              <a id="dashboard-full-link" href="images/projects/pbi_page1_executive_overview.png" target="_blank" class="inline-flex items-center gap-1 font-semibold text-brand-yellow hover:underline">
+                <span>View Full Resolution &rarr;</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Thumbnails -->
+          <div class="grid grid-cols-5 gap-3 mt-4">
+            <button onclick="switchDashboardView(0)" class="thumb-btn border-2 border-brand-blue ring-2 ring-brand-blue/30 rounded-lg overflow-hidden">
+              <img src="images/projects/pbi_page1_executive_overview.png" class="w-full h-12 sm:h-16 object-cover object-top">
+              <span class="block bg-slate-900/80 text-[10px] text-white font-semibold py-0.5 text-center">View 1</span>
+            </button>
+            <button onclick="switchDashboardView(1)" class="thumb-btn border-2 border-slate-200 opacity-60 hover:opacity-100 rounded-lg overflow-hidden">
+              <img src="images/projects/pbi_page2_profitability_health.png" class="w-full h-12 sm:h-16 object-cover object-top">
+              <span class="block bg-slate-900/80 text-[10px] text-white font-semibold py-0.5 text-center">View 2</span>
+            </button>
+            <button onclick="switchDashboardView(2)" class="thumb-btn border-2 border-slate-200 opacity-60 hover:opacity-100 rounded-lg overflow-hidden">
+              <img src="images/projects/pbi_page3_credit_risk.png" class="w-full h-12 sm:h-16 object-cover object-top">
+              <span class="block bg-slate-900/80 text-[10px] text-white font-semibold py-0.5 text-center">View 3</span>
+            </button>
+            <button onclick="switchDashboardView(3)" class="thumb-btn border-2 border-slate-200 opacity-60 hover:opacity-100 rounded-lg overflow-hidden">
+              <img src="images/projects/pbi_page4_forecasting.png" class="w-full h-12 sm:h-16 object-cover object-top">
+              <span class="block bg-slate-900/80 text-[10px] text-white font-semibold py-0.5 text-center">View 4</span>
+            </button>
+            <button onclick="switchDashboardView(4)" class="thumb-btn border-2 border-slate-200 opacity-60 hover:opacity-100 rounded-lg overflow-hidden">
+              <img src="images/projects/pbi_page5_cambodia_context.png" class="w-full h-12 sm:h-16 object-cover object-top">
+              <span class="block bg-slate-900/80 text-[10px] text-white font-semibold py-0.5 text-center">View 5</span>
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Framework Cards -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-12">
+          <div class="bg-white p-6 sm:p-7 rounded-2xl border border-slate-200 shadow-subtle space-y-3">
+            <div class="w-10 h-10 rounded-xl bg-brand-blue/10 text-brand-blue flex items-center justify-center font-bold">01</div>
+            <h4 class="text-lg font-display font-bold text-brand-text">The SME Financing Obstacle</h4>
+            <p class="text-sm text-slate-600 leading-relaxed">
+              In Cambodia, MSMEs represent 99.8% of establishments and 70% of employment. Yet <strong class="text-slate-800">42.4% identify credit access as their primary obstacle</strong> with collateral demands averaging 158.5%.
+            </p>
+          </div>
+          <div class="bg-white p-6 sm:p-7 rounded-2xl border border-slate-200 shadow-subtle space-y-3">
+            <div class="w-10 h-10 rounded-xl bg-brand-green/10 text-brand-green flex items-center justify-center font-bold">02</div>
+            <h4 class="text-lg font-display font-bold text-brand-text">Multi-Layered Engineering</h4>
+            <p class="text-sm text-slate-600 leading-relaxed">
+              Engineered across three integrated analytical layers: a 12-worksheet <strong class="text-slate-800">Microsoft Excel</strong> model, a star-schema <strong class="text-slate-800">Power BI</strong> model with 23 DAX measures, and a credit scorecard.
+            </p>
+          </div>
+          <div class="bg-white p-6 sm:p-7 rounded-2xl border border-slate-200 shadow-subtle space-y-3">
+            <div class="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-800 flex items-center justify-center font-bold">03</div>
+            <h4 class="text-lg font-display font-bold text-brand-text">Methodological Integrity</h4>
+            <p class="text-sm text-slate-600 leading-relaxed">
+              Macro benchmarks strictly sourced from <strong class="text-slate-800">National Bank of Cambodia (NBC)</strong> and NIS. Micro data synthesized with strict double-entry balance equilibrium ($0.00 discrepancy).
+            </p>
+          </div>
+        </div>
+
+        <!-- Modal Trigger Banner -->
+        <div class="p-6 rounded-2xl bg-gradient-to-r from-brand-blue to-slate-900 text-white flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div>
+            <span class="text-xs font-bold text-brand-yellow uppercase tracking-wider block mb-1">Deep Dive Deliverables</span>
+            <h4 class="text-lg sm:text-xl font-bold font-display">
+              Examine the full methodology and credit risk scorecard
+            </h4>
+            <p class="text-xs text-slate-300 mt-1">
+              Explore the 12 Excel model worksheets, DAX measures code, and sensitivity matrix.
+            </p>
+          </div>
+          <button onclick="openProjectModal('cambodia-sme')" class="px-5 py-3 text-xs sm:text-sm font-bold text-slate-900 bg-brand-yellow hover:bg-amber-400 rounded-xl shadow-brand-yellow transition-all whitespace-nowrap">
+            Open Project Specification Modal
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ==================== 4B. ACADEMIC PUBLICATIONS SECTION ==================== -->
+    <section id="publications" class="py-20 lg:py-24 bg-white border-b border-slate-200/80">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+          <div class="max-w-3xl">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-brand-blue/10 text-brand-blue text-xs font-bold uppercase tracking-wider mb-3">
+              Academic Research & Publications
+            </div>
+            <h2 class="text-3xl sm:text-4xl font-display font-extrabold text-brand-text tracking-tight">
+              Published International Research Papers
+            </h2>
+            <p class="mt-2 text-base text-slate-600 font-medium">
+              Academic contributions published in <em>Digitalization and Knowledge: Ethical Challenges and Impact on Society</em>, Editura Universitară, Romania (2026).
+            </p>
+          </div>
+          <div class="text-xs font-mono font-semibold text-slate-600 bg-slate-100 px-3.5 py-2 rounded-xl border border-slate-200">
+            ISBN: 978-606-28-2200-2 • DOI: 10.5682/9786062822002
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          
+          <!-- Publication 1: Trade Paper -->
+          <div class="bg-slate-50/70 hover:bg-white rounded-3xl p-7 border border-slate-200/90 shadow-subtle hover:shadow-card transition-all flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="px-3 py-1 text-xs font-bold rounded-full bg-brand-blue/10 text-brand-blue border border-brand-blue/20">International Trade Economics</span>
+                <span class="text-xs font-semibold text-slate-500">2026</span>
+              </div>
+              <h3 class="text-xl font-display font-bold text-brand-text mb-2 leading-snug">
+                Romania and Cambodia: A Comparative Analysis of International Trade: Similarities and Differences
+              </h3>
+              <p class="text-xs font-semibold text-slate-700 mb-3">
+                <strong>Suon Lysorng</strong>, Co-Authors
+              </p>
+              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">
+                Empirical comparative analysis investigating bilateral trade architectures, export diversification, and economic transition dynamics between Eastern Europe and Southeast Asia.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-slate-200/80 flex flex-wrap items-center justify-between gap-3">
+              <a href="https://doi.org/10.5682/9786062822002" target="_blank" class="inline-flex items-center gap-1.5 px-3.5 py-2 text-xs font-bold text-white bg-brand-blue hover:bg-brand-blue-dark rounded-lg transition-colors">
+                <span>Publisher DOI &rarr;</span>
+              </a>
+              <button onclick="toggleBibtexModal('bib-trade')" class="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-semibold text-slate-700 bg-white hover:bg-slate-100 border border-slate-300 rounded-lg transition-colors">
+                <span>View BibTeX Citation</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Publication 2: Error Analysis Paper -->
+          <div class="bg-slate-50/70 hover:bg-white rounded-3xl p-7 border border-slate-200/90 shadow-subtle hover:shadow-card transition-all flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="px-3 py-1 text-xs font-bold rounded-full bg-brand-green/10 text-brand-green border border-brand-green/20">Higher Education & Linguistics</span>
+                <span class="text-xs font-semibold text-slate-500">2026</span>
+              </div>
+              <h3 class="text-xl font-display font-bold text-brand-text mb-2 leading-snug">
+                Common English Errors Among University Students: A Comparative Analysis of Romania and Cambodia
+              </h3>
+              <p class="text-xs font-semibold text-slate-700 mb-3">
+                <strong>Suon Lysorng</strong>, Co-Authors
+              </p>
+              <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">
+                Cross-national diagnostic study analyzing second-language structural and semantic acquisition challenges among university undergraduates across European and Asian higher education systems.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-slate-200/80 flex flex-wrap items-center justify-between gap-3">
+              <a href="https://doi.org/10.5682/9786062822002" target="_blank" class="inline-flex items-center gap-1.5 px-3.5 py-2 text-xs font-bold text-white bg-brand-blue hover:bg-brand-blue-dark rounded-lg transition-colors">
+                <span>Publisher DOI &rarr;</span>
+              </a>
+              <button onclick="toggleBibtexModal('bib-errors')" class="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-semibold text-slate-700 bg-white hover:bg-slate-100 border border-slate-300 rounded-lg transition-colors">
+                <span>View BibTeX Citation</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- ==================== 5. ENTERPRISE PROJECTS SECTION ==================== -->
+    <section id="projects" class="py-20 lg:py-28 bg-white border-b border-slate-200/80">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+          <div class="max-w-2xl">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-brand-green/10 text-brand-green text-xs font-bold uppercase tracking-wider mb-3">
+              Corporate Track Record
+            </div>
+            <h2 class="text-3xl sm:text-4xl font-display font-extrabold text-brand-text tracking-tight">
+              Enterprise BI & Financial Projects
+            </h2>
+            <p class="mt-2 text-base text-slate-600 font-medium">
+              Real-world analytics systems, automated financial pipelines, and executive dashboards delivered for international and multi-entity corporate clients.
+            </p>
+          </div>
+
+          <!-- Category Filter Tabs -->
+          <div class="flex flex-wrap gap-1.5 p-1 bg-slate-100 rounded-xl">
+            <button onclick="filterProjects('all')" class="proj-cat-btn active px-3.5 py-1.5 text-xs font-bold rounded-lg bg-white text-brand-blue shadow-sm">All</button>
+            <button onclick="filterProjects('finance')" class="proj-cat-btn px-3.5 py-1.5 text-xs font-semibold rounded-lg text-slate-600 hover:text-slate-900">Financial Reporting</button>
+            <button onclick="filterProjects('bi')" class="proj-cat-btn px-3.5 py-1.5 text-xs font-semibold rounded-lg text-slate-600 hover:text-slate-900">Business Intelligence</button>
+            <button onclick="filterProjects('operations')" class="proj-cat-btn px-3.5 py-1.5 text-xs font-semibold rounded-lg text-slate-600 hover:text-slate-900">Operations Analytics</button>
+          </div>
+        </div>
+
+        <!-- Projects Grid -->
+        <div id="projects-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-7">
+          <!-- Project 0: Comin Asia SAP B1 Automation -->
+          <div data-cat="finance" onclick="openProjectModal('comin-sap')" class="project-card group bg-white rounded-2xl border-2 border-brand-blue/30 p-6 sm:p-7 shadow-subtle hover:shadow-card hover:-translate-y-1 transition-all duration-300 cursor-pointer flex flex-col justify-between hover:border-brand-blue">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="px-2.5 py-0.5 text-xs font-bold rounded-full border bg-brand-blue/10 text-brand-blue border-brand-blue/20">Digital Transformation & ERP</span>
+                <span class="text-xs text-brand-muted font-medium">Feb 2025 – Present</span>
+              </div>
+              <h4 class="text-lg font-display font-bold text-brand-text group-hover:text-brand-blue transition-colors mb-2">Comin Asia Enterprise Digitization & SAP B1 Automation</h4>
+              <div class="text-xs text-brand-muted font-medium mb-3">🏢 Comin Asia (Cambodia & Laos)</div>
+              <p class="text-sm text-slate-600 line-clamp-3 mb-4 leading-relaxed">Modernized 36 business forms across 8 departments replacing external SAP modules with Power Platform. Built Expense Claim automation integrated via SAP Business One Service Layer API for automated Journal Entry posting.</p>
+              <div class="p-3 rounded-xl bg-slate-50 border border-slate-100 mb-5 text-xs text-slate-700">
+                <strong class="text-brand-blue font-semibold">Impact: </strong>Delivered multi-year SAP licensing cost avoidance presented to CFO and eliminated manual finance data entry.
+              </div>
+            </div>
+            <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+              <div class="flex flex-wrap gap-1.5">
+                <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded-md">Power Apps</span>
+                <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded-md">Power Automate</span>
+                <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded-md">SAP B1 API</span>
+                <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded-md">Power BI</span>
+              </div>
+              <span class="text-xs font-semibold text-brand-blue">Details &rarr;</span>
+            </div>
+          </div>
+
+          
+          <!-- Project 1: Comin Khmere -->
+          <div data-cat="finance" onclick="openProjectModal('comin-khmere')" class="project-card group bg-white rounded-2xl border border-slate-200/90 p-6 sm:p-7 shadow-subtle hover:shadow-card hover:-translate-y-1 transition-all duration-300 cursor-pointer flex flex-col justify-between hover:border-brand-green/40">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="px-2.5 py-0.5 text-xs font-semibold rounded-full border bg-brand-green/10 text-brand-green border-brand-green/20">Financial Reporting & Analysis</span>
+                <span class="text-xs text-brand-muted font-medium">August 2024</span>
+              </div>
+              <h4 class="text-lg font-display font-bold text-brand-text group-hover:text-brand-blue transition-colors mb-2">Comin Khmere Accounts Receivable & P&L Dashboard</h4>
+              <div class="text-xs text-brand-muted font-medium mb-3">🏢 Comin Khmere (Phnom Penh)</div>
+              <p class="text-sm text-slate-600 line-clamp-3 mb-4 leading-relaxed">Built an executive Power BI financial dashboard consolidating multi-departmental Excel financial statements, accelerating monthly P&L comparison and overdue Accounts Receivable tracking.</p>
+              <div class="p-3 rounded-xl bg-slate-50 border border-slate-100 mb-5 text-xs text-slate-700">
+                <strong class="text-brand-blue font-semibold">Impact: </strong>Reduced monthly reporting turnaround by 40% and gave executive leadership instant visibility into cash collection bottlenecks.
+              </div>
+            </div>
+            <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+              <div class="flex flex-wrap gap-1.5">
+                <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded-md">Power BI</span>
+                <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded-md">Excel</span>
+                <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded-md">DAX</span>
+              </div>
+              <span class="text-xs font-semibold text-brand-blue">Details &rarr;</span>
+            </div>
+          </div>
+
+          <!-- Project 2: EFG Cambodia -->
+          <div data-cat="bi" onclick="openProjectModal('efg')" class="project-card group bg-white rounded-2xl border border-slate-200/90 p-6 sm:p-7 shadow-subtle hover:shadow-card hover:-translate-y-1 transition-all duration-300 cursor-pointer flex flex-col justify-between hover:border-amber-400/50">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="px-2.5 py-0.5 text-xs font-semibold rounded-full border bg-amber-500/10 text-amber-800 border-amber-500/20">Business Intelligence</span>
+                <span class="text-xs text-brand-muted font-medium">June 2024</span>
+              </div>
+              <h4 class="text-lg font-display font-bold text-brand-text group-hover:text-brand-blue transition-colors mb-2">EFG Cambodia Compensation & Benefits Analytics</h4>
+              <div class="text-xs text-brand-muted font-medium mb-3">🏢 EFG (Express Food Group) Cambodia</div>
+              <p class="text-sm text-slate-600 line-clamp-3 mb-4 leading-relaxed">Designed and deployed a comprehensive HR & Payroll financial analytics system integrating multi-brand restaurant payroll data into interactive Power BI executive dashboards.</p>
+              <div class="p-3 rounded-xl bg-slate-50 border border-slate-100 mb-5 text-xs text-slate-700">
+                <strong class="text-brand-blue font-semibold">Impact: </strong>Commended by senior HR and finance leadership for establishing transparency in multi-brand labor cost management.
+              </div>
+            </div>
+            <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+              <div class="flex flex-wrap gap-1.5">
+                <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded-md">Power BI</span>
+                <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded-md">DAX</span>
+                <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded-md">Modeling</span>
+              </div>
+              <span class="text-xs font-semibold text-brand-blue">Details &rarr;</span>
+            </div>
+          </div>
+
+          <!-- Project 3: Minecorp Australia -->
+          <div data-cat="operations" onclick="openProjectModal('minecorp')" class="project-card group bg-white rounded-2xl border border-slate-200/90 p-6 sm:p-7 shadow-subtle hover:shadow-card hover:-translate-y-1 transition-all duration-300 cursor-pointer flex flex-col justify-between hover:border-brand-blue/40">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="px-2.5 py-0.5 text-xs font-semibold rounded-full border bg-brand-blue/10 text-brand-blue border-brand-blue/20">Workforce & Operations</span>
+                <span class="text-xs text-brand-muted font-medium">December 2024</span>
+              </div>
+              <h4 class="text-lg font-display font-bold text-brand-text group-hover:text-brand-blue transition-colors mb-2">Minecorp Australia Workforce Planning Analytics</h4>
+              <div class="text-xs text-brand-muted font-medium mb-3">🏢 Minecorp Australia</div>
+              <p class="text-sm text-slate-600 line-clamp-3 mb-4 leading-relaxed">Developed an international workforce planning dashboard tracking attrition trends, recruitment progress, and talent qualification matching across multiple industrial operations.</p>
+              <div class="p-3 rounded-xl bg-slate-50 border border-slate-100 mb-5 text-xs text-slate-700">
+                <strong class="text-brand-blue font-semibold">Impact: </strong>Empowered executive leadership with forward-looking workforce capacity modeling to preempt operational skill shortages.
+              </div>
+            </div>
+            <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+              <div class="flex flex-wrap gap-1.5">
+                <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded-md">Power BI</span>
+                <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded-md">Power Query</span>
+                <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded-md">DAX</span>
+              </div>
+              <span class="text-xs font-semibold text-brand-blue">Details &rarr;</span>
+            </div>
+          </div>
+
+          <!-- Project 4: RMA Laos -->
+          <div data-cat="bi" onclick="openProjectModal('rma-laos')" class="project-card group bg-white rounded-2xl border border-slate-200/90 p-6 sm:p-7 shadow-subtle hover:shadow-card hover:-translate-y-1 transition-all duration-300 cursor-pointer flex flex-col justify-between hover:border-amber-400/50">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="px-2.5 py-0.5 text-xs font-semibold rounded-full border bg-amber-500/10 text-amber-800 border-amber-500/20">Business Intelligence</span>
+                <span class="text-xs text-brand-muted font-medium">September 2024</span>
+              </div>
+              <h4 class="text-lg font-display font-bold text-brand-text group-hover:text-brand-blue transition-colors mb-2">RMA Laos HR & Training Intelligence Portal</h4>
+              <div class="text-xs text-brand-muted font-medium mb-3">🏢 RMA Laos (Vientiane)</div>
+              <p class="text-sm text-slate-600 line-clamp-3 mb-4 leading-relaxed">Consolidated over 7,000 multi-entity organizational records into a unified Power BI management portal covering learning progress, performance ratings, and human capital metrics.</p>
+              <div class="p-3 rounded-xl bg-slate-50 border border-slate-100 mb-5 text-xs text-slate-700">
+                <strong class="text-brand-blue font-semibold">Impact: </strong>Standardized regional training intelligence and enabled proactive skills development planning.
+              </div>
+            </div>
+            <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+              <div class="flex flex-wrap gap-1.5">
+                <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded-md">Power BI</span>
+                <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded-md">Excel</span>
+                <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded-md">ETL</span>
+              </div>
+              <span class="text-xs font-semibold text-brand-blue">Details &rarr;</span>
+            </div>
+          </div>
+
+          <!-- Project 5: RMA Group Customer Intelligence -->
+          <div data-cat="operations" onclick="openProjectModal('rma-customer')" class="project-card group bg-white rounded-2xl border border-slate-200/90 p-6 sm:p-7 shadow-subtle hover:shadow-card hover:-translate-y-1 transition-all duration-300 cursor-pointer flex flex-col justify-between hover:border-brand-green/40">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="px-2.5 py-0.5 text-xs font-semibold rounded-full border bg-brand-green/10 text-brand-green border-brand-green/20">Operational Analytics</span>
+                <span class="text-xs text-brand-muted font-medium">March 2024</span>
+              </div>
+              <h4 class="text-lg font-display font-bold text-brand-text group-hover:text-brand-blue transition-colors mb-2">RMA Group Customer Sales & Service Platform</h4>
+              <div class="text-xs text-brand-muted font-medium mb-3">🏢 RMA Cambodia Group</div>
+              <p class="text-sm text-slate-600 line-clamp-3 mb-4 leading-relaxed">Built an end-to-end customer intelligence solution connecting 8 transactional database tables via Power Query ETL to evaluate automotive sales performance and service turnaround.</p>
+              <div class="p-3 rounded-xl bg-slate-50 border border-slate-100 mb-5 text-xs text-slate-700">
+                <strong class="text-brand-blue font-semibold">Impact: </strong>Equipped senior automotive managers with real-time feedback loops to improve customer satisfaction.
+              </div>
+            </div>
+            <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
+              <div class="flex flex-wrap gap-1.5">
+                <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded-md">Power Query</span>
+                <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded-md">SQL</span>
+                <span class="px-2 py-0.5 text-[11px] font-medium bg-slate-100 text-slate-700 rounded-md">Power BI</span>
+              </div>
+              <span class="text-xs font-semibold text-brand-blue">Details &rarr;</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== 6. SKILLS & TECHNICAL STACK ==================== -->
+    <section id="skills" class="py-20 lg:py-28 bg-slate-50 border-b border-slate-200/80">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="max-w-3xl mb-16">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-brand-blue/10 text-brand-blue text-xs font-bold uppercase tracking-wider mb-3">
+            Technical Stack & Capabilities
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-display font-extrabold text-brand-text tracking-tight">
+            Specialized Skills Across 3 Core Disciplines
+          </h2>
+          <p class="mt-3 text-base sm:text-lg text-slate-600 font-medium">
+            A cohesive balance of corporate financial rigor, high-performance data modeling, and workflow automation.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
+          
+          <!-- Category 1: Finance -->
+          <div class="bg-white rounded-3xl p-7 border-2 border-brand-blue/30 shadow-subtle flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-3 mb-4">
+                <span class="px-3 py-1 text-xs font-bold rounded-full border bg-brand-blue/10 text-brand-blue border-brand-blue/20">Finance & Business Intelligence</span>
+                <span class="w-2.5 h-2.5 rounded-full bg-brand-blue"></span>
+              </div>
+              <p class="text-xs text-slate-600 mb-6 font-medium leading-relaxed">Rigorous corporate finance analysis, dynamic multi-statement modeling, and executive variance diagnostics.</p>
+              <div class="space-y-4">
+                <div class="pb-3 border-b border-slate-100">
+                  <div class="flex items-center justify-between mb-1"><span class="text-sm font-bold text-slate-900">Financial Statement Analysis</span><span class="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-md bg-brand-blue/10 text-brand-blue">Expert</span></div>
+                  <p class="text-xs text-slate-600">Balance Sheet equilibrium, multi-step P&L, direct/indirect Cash Flow analysis</p>
+                </div>
+                <div class="pb-3 border-b border-slate-100">
+                  <div class="flex items-center justify-between mb-1"><span class="text-sm font-bold text-slate-900">Financial Ratio Diagnostics</span><span class="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-md bg-brand-blue/10 text-brand-blue">Expert</span></div>
+                  <p class="text-xs text-slate-600">Profitability (ROA, ROE), Liquidity (Current, Quick), Solvency (D/E)</p>
+                </div>
+                <div class="pb-3 border-b border-slate-100">
+                  <div class="flex items-center justify-between mb-1"><span class="text-sm font-bold text-slate-900">Credit Risk Scoring</span><span class="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-md bg-brand-blue/10 text-brand-blue">Advanced</span></div>
+                  <p class="text-xs text-slate-600">Multi-criteria risk screening scorecards and sensitivity models</p>
                 </div>
                 <div>
-                  <div class="title">
-                    <a href="https://doi.org/10.5682/9786062822002" target="_blank">
-                      Romania and Cambodia: A Comparative Analysis of International Trade: Similarities and Differences
-                    </a>
+                  <div class="flex items-center justify-between mb-1"><span class="text-sm font-bold text-slate-900">Financial Modeling & Forecasting</span><span class="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-md bg-brand-blue/10 text-brand-blue">Advanced</span></div>
+                  <p class="text-xs text-slate-600">Scenario planning (Optimistic, Base, Adverse), growth driver projections</p>
+                </div>
+              </div>
+            </div>
+            <div class="pt-6 mt-6 border-t border-slate-100 text-[11px] font-bold text-slate-600 uppercase tracking-wider">✓ Verified in Production & Training</div>
+          </div>
+
+          <!-- Category 2: Data Analytics -->
+          <div class="bg-white rounded-3xl p-7 border-2 border-amber-400/30 shadow-subtle flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-3 mb-4">
+                <span class="px-3 py-1 text-xs font-bold rounded-full border bg-amber-500/10 text-amber-800 border-amber-500/20">Data Analytics & BI</span>
+                <span class="w-2.5 h-2.5 rounded-full bg-brand-yellow"></span>
+              </div>
+              <p class="text-xs text-slate-600 mb-6 font-medium leading-relaxed">Enterprise dimensional data modeling, complex DAX formulation, and interactive dashboard engineering.</p>
+              <div class="space-y-4">
+                <div class="pb-3 border-b border-slate-100">
+                  <div class="flex items-center justify-between mb-1"><span class="text-sm font-bold text-slate-900">Microsoft Power BI</span><span class="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-md bg-amber-50 text-amber-800">Expert</span></div>
+                  <p class="text-xs text-slate-600">Star-schema tabular architecture, PBIR v4.0, TMDL, enterprise deployment</p>
+                </div>
+                <div class="pb-3 border-b border-slate-100">
+                  <div class="flex items-center justify-between mb-1"><span class="text-sm font-bold text-slate-900">DAX Expressions</span><span class="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-md bg-amber-50 text-amber-800">Expert</span></div>
+                  <p class="text-xs text-slate-600">Time intelligence, dynamic aggregations, CALCULATE context transition</p>
+                </div>
+                <div class="pb-3 border-b border-slate-100">
+                  <div class="flex items-center justify-between mb-1"><span class="text-sm font-bold text-slate-900">Power Query (M)</span><span class="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-md bg-amber-50 text-amber-800">Expert</span></div>
+                  <p class="text-xs text-slate-600">Automated ETL pipelines, schema validation, multi-source consolidation</p>
+                </div>
+                <div>
+                  <div class="flex items-center justify-between mb-1"><span class="text-sm font-bold text-slate-900">SQL & Python</span><span class="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-md bg-amber-50 text-amber-800">Advanced</span></div>
+                  <p class="text-xs text-slate-600">Relational queries, Pandas data validation, automated verification</p>
+                </div>
+              </div>
+            </div>
+            <div class="pt-6 mt-6 border-t border-slate-100 text-[11px] font-bold text-slate-600 uppercase tracking-wider">✓ Verified in Production & Training</div>
+          </div>
+
+          <!-- Category 3: Automation -->
+          <div class="bg-white rounded-3xl p-7 border-2 border-brand-green/30 shadow-subtle flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-3 mb-4">
+                <span class="px-3 py-1 text-xs font-bold rounded-full border bg-brand-green/10 text-brand-green border-brand-green/20">Automation & Technology</span>
+                <span class="w-2.5 h-2.5 rounded-full bg-brand-green"></span>
+              </div>
+              <p class="text-xs text-slate-600 mb-6 font-medium leading-relaxed">Eliminating manual reporting bottlenecks through automated pipelines, governance, and technology.</p>
+              <div class="space-y-4">
+                <div class="pb-3 border-b border-slate-100">
+                  <div class="flex items-center justify-between mb-1"><span class="text-sm font-bold text-slate-900">Reporting Workflow Automation</span><span class="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-md bg-brand-green/10 text-brand-green">Expert</span></div>
+                  <p class="text-xs text-slate-600">Reduced routine reporting turnaround by 50% across corporate divisions</p>
+                </div>
+                <div class="pb-3 border-b border-slate-100">
+                  <div class="flex items-center justify-between mb-1"><span class="text-sm font-bold text-slate-900">Advanced Microsoft Excel</span><span class="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-md bg-brand-green/10 text-brand-green">Master</span></div>
+                  <p class="text-xs text-slate-600">Dynamic array formulas, advanced lookup arrays, financial engineering</p>
+                </div>
+                <div class="pb-3 border-b border-slate-100">
+                  <div class="flex items-center justify-between mb-1"><span class="text-sm font-bold text-slate-900">Data Quality Assurance</span><span class="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-md bg-brand-green/10 text-brand-green">Advanced</span></div>
+                  <p class="text-xs text-slate-600">Automated accounting balance checks and longitudinal schema audits</p>
+                </div>
+                <div>
+                  <div class="flex items-center justify-between mb-1"><span class="text-sm font-bold text-slate-900">Excel to Power BI Modernization</span><span class="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-md bg-brand-green/10 text-brand-green">Expert</span></div>
+                  <p class="text-xs text-slate-600">Transitioning legacy spreadsheets into self-refreshing BI models</p>
+                </div>
+              </div>
+            </div>
+            <div class="pt-6 mt-6 border-t border-slate-100 text-[11px] font-bold text-slate-600 uppercase tracking-wider">✓ Verified in Production & Training</div>
+          </div>
+
+        </div>
+
+        <!-- Global Tool Badges Strip -->
+        <div class="bg-white p-6 sm:p-8 rounded-3xl border border-slate-200 shadow-subtle flex flex-col md:flex-row md:items-center justify-between gap-6">
+          <div>
+            <h3 class="text-lg font-display font-bold text-brand-text mb-1">Software, Languages & Architecture Standards</h3>
+            <p class="text-xs text-slate-600">Daily tools utilized across enterprise financial reporting and data modeling.</p>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1.5 text-xs font-semibold bg-slate-100 text-slate-800 rounded-lg border border-slate-200">Microsoft Excel</span>
+            <span class="px-3 py-1.5 text-xs font-semibold bg-slate-100 text-slate-800 rounded-lg border border-slate-200">Microsoft Power BI</span>
+            <span class="px-3 py-1.5 text-xs font-semibold bg-slate-100 text-slate-800 rounded-lg border border-slate-200">Power Query (M)</span>
+            <span class="px-3 py-1.5 text-xs font-semibold bg-slate-100 text-slate-800 rounded-lg border border-slate-200">DAX</span>
+            <span class="px-3 py-1.5 text-xs font-semibold bg-slate-100 text-slate-800 rounded-lg border border-slate-200">SQL</span>
+            <span class="px-3 py-1.5 text-xs font-semibold bg-slate-100 text-slate-800 rounded-lg border border-slate-200">Python (Pandas / NumPy)</span>
+            <span class="px-3 py-1.5 text-xs font-semibold bg-slate-100 text-slate-800 rounded-lg border border-slate-200">Git / GitHub</span>
+            <span class="px-3 py-1.5 text-xs font-semibold bg-slate-100 text-slate-800 rounded-lg border border-slate-200">PBIR v4.0 & TMDL</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== 7. CAREER TIMELINE ==================== -->
+    <section id="experience" class="py-20 lg:py-28 bg-white border-b border-slate-200/80">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="max-w-3xl mb-16">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-brand-blue/10 text-brand-blue text-xs font-bold uppercase tracking-wider mb-3">
+            Career Timeline
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-display font-extrabold text-brand-text tracking-tight">
+            Professional Experience & Corporate Leadership
+          </h2>
+          <p class="mt-3 text-base sm:text-lg text-slate-600 font-medium">
+            Over 8 years of applied experience driving financial data analytics, reporting automation, and operational efficiency.
+          </p>
+        </div>
+
+        <div class="relative border-l-2 border-slate-200 ml-4 md:ml-32 space-y-12">
+          
+          <!-- Role 1: Comin Asia -->
+          <div class="relative pl-6 md:pl-10 group">
+            <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-white border-4 border-brand-blue"></div>
+            <div class="md:absolute md:-left-36 md:top-0 md:w-28 text-left md:text-right mb-2 md:mb-0">
+              <span class="text-xs font-bold text-brand-blue tracking-wide block">Feb 2025 – Present</span>
+              <span class="text-[11px] font-medium text-slate-600 block">Full-Time</span>
+            </div>
+            <div class="bg-slate-50/70 hover:bg-white rounded-2xl p-6 sm:p-7 border border-slate-200/80 shadow-subtle hover:shadow-card transition-all">
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+                <div>
+                  <h3 class="text-xl font-display font-bold text-brand-text">Data Analyst</h3>
+                  <div class="text-sm font-semibold text-brand-blue mt-0.5">🏢 Comin Asia • Phnom Penh, Cambodia</div>
+                </div>
+                <span class="px-3 py-1 text-xs font-semibold rounded-full border bg-brand-blue/10 text-brand-blue border-brand-blue/20">Comin Asia</span>
+              </div>
+              <p class="text-sm text-slate-700 leading-relaxed mb-4">
+                Driving the digital transformation of all business divisions, with a specialized focus on making financial reporting and operational analytics dynamic, automated, and data-driven.
+              </p>
+              <ul class="space-y-1.5 text-xs text-slate-600 mb-4">
+                <li>✓ Design executive KPI dashboards for C-suite and division directors.</li>
+                <li>✓ Formulate predictive baseline models to forecast project delivery outcomes and budget variances.</li>
+                <li>✓ Establish enterprise data management and governance best practices ensuring strict data integrity.</li>
+              </ul>
+              <div class="pt-3 border-t border-slate-200/60 flex flex-wrap gap-1.5 text-[11px]">
+                <span class="px-2 py-0.5 bg-white text-slate-700 rounded border border-slate-200">Power BI</span>
+                <span class="px-2 py-0.5 bg-white text-slate-700 rounded border border-slate-200">DAX</span>
+                <span class="px-2 py-0.5 bg-white text-slate-700 rounded border border-slate-200">Advanced Excel</span>
+                <span class="px-2 py-0.5 bg-white text-slate-700 rounded border border-slate-200">Power Query</span>
+                <span class="px-2 py-0.5 bg-white text-slate-700 rounded border border-slate-200">SQL</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 2: RMA Cambodia Group -->
+          <div class="relative pl-6 md:pl-10 group">
+            <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-white border-4 border-brand-green"></div>
+            <div class="md:absolute md:-left-36 md:top-0 md:w-28 text-left md:text-right mb-2 md:mb-0">
+              <span class="text-xs font-bold text-brand-green tracking-wide block">Mar 2023 – Jan 2025</span>
+              <span class="text-[11px] font-medium text-slate-600 block">Full-Time</span>
+            </div>
+            <div class="bg-slate-50/70 hover:bg-white rounded-2xl p-6 sm:p-7 border border-slate-200/80 shadow-subtle hover:shadow-card transition-all">
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+                <div>
+                  <h3 class="text-xl font-display font-bold text-brand-text">Human Resource & Data Analyst</h3>
+                  <div class="text-sm font-semibold text-brand-green mt-0.5">🏢 RMA Cambodia Group • Phnom Penh, Cambodia</div>
+                </div>
+                <span class="px-3 py-1 text-xs font-semibold rounded-full border bg-brand-green/10 text-brand-green border-brand-green/20">RMA Group</span>
+              </div>
+              <p class="text-sm text-slate-700 leading-relaxed mb-4">
+                Architected centralized databases, automated reporting pipelines, and interactive analytics dashboards supporting 8 major business entities across Cambodia, Laos, and Vietnam.
+              </p>
+              <ul class="space-y-1.5 text-xs text-slate-600 mb-4">
+                <li>✓ Engineered automated reporting models in Excel and Power BI that reduced data processing time by 50%.</li>
+                <li>✓ Built production dashboards including P&L, Accounts Receivable, GL, Sales, Attrition, C&B, and CRM scorecards.</li>
+                <li>✓ Supported AVR, BSP Finance, Comin Khmere, Comin Lao, Comin Vietnam, EFG, and RMA Automotive.</li>
+              </ul>
+              <div class="pt-3 border-t border-slate-200/60 flex flex-wrap gap-1.5 text-[11px]">
+                <span class="px-2 py-0.5 bg-white text-slate-700 rounded border border-slate-200">Power BI</span>
+                <span class="px-2 py-0.5 bg-white text-slate-700 rounded border border-slate-200">DAX</span>
+                <span class="px-2 py-0.5 bg-white text-slate-700 rounded border border-slate-200">Excel Automation</span>
+                <span class="px-2 py-0.5 bg-white text-slate-700 rounded border border-slate-200">Power Query</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Earlier Leadership Roles -->
+          <div class="relative pl-6 md:pl-10 group">
+            <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-white border-4 border-slate-400"></div>
+            <div class="md:absolute md:-left-36 md:top-0 md:w-28 text-left md:text-right mb-2 md:mb-0">
+              <span class="text-xs font-bold text-slate-600 tracking-wide block">2020 – 2023</span>
+              <span class="text-[11px] font-medium text-slate-500 block">Leadership</span>
+            </div>
+            <div class="bg-slate-50/70 hover:bg-white rounded-2xl p-6 sm:p-7 border border-slate-200/80 shadow-subtle hover:shadow-card transition-all">
+              <h3 class="text-xl font-display font-bold text-brand-text">Executive Leadership & Strategic Communication</h3>
+              <p class="text-sm text-slate-700 leading-relaxed mt-1 mb-3">
+                Managing Director at Flourishing Dev Co. Ltd (2022–2023) leading operations, marketing budgets, and corporate outreach. Club President at Agora Speakers Club (2020–2021) mentoring young professionals in communication and public leadership.
+              </p>
+              <div class="flex flex-wrap gap-2 text-xs font-semibold text-slate-600">
+                <span class="px-3 py-1 bg-white rounded-lg border border-slate-200">Flourishing Dev</span>
+                <span class="px-3 py-1 bg-white rounded-lg border border-slate-200">Agora Speakers President</span>
+                <span class="px-3 py-1 bg-white rounded-lg border border-slate-200">JCI Cambodia</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== 8. TRAINING & MENTORSHIP BY TOPIC ==================== -->
+    <section id="training" class="py-20 lg:py-28 bg-slate-50 border-b border-slate-200/80">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="max-w-3xl mb-16">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-amber-500/10 text-amber-800 text-xs font-bold uppercase tracking-wider mb-3">
+            Corporate Pedagogy & Mentorship
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-display font-extrabold text-brand-text tracking-tight">
+            Empowering 3,000+ Professionals in Data & Finance
+          </h2>
+          <p class="mt-3 text-base sm:text-lg text-slate-600 font-medium">
+            Bridging academic concepts and real-world executive reporting through hands-on masterclasses grounded in real corporate data challenges.
+          </p>
+        </div>
+
+        <!-- Ribbon -->
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mb-16">
+          <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-subtle text-center">
+            <span class="text-3xl sm:text-4xl font-display font-extrabold text-brand-blue tracking-tight block">3,000+</span>
+            <span class="text-xs sm:text-sm font-bold text-slate-900 mt-1 block">Professionals & Students Trained</span>
+          </div>
+          <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-subtle text-center">
+            <span class="text-3xl sm:text-4xl font-display font-extrabold text-brand-blue tracking-tight block">2+ Years</span>
+            <span class="text-xs sm:text-sm font-bold text-slate-900 mt-1 block">Faculty Lecturer at IFA</span>
+          </div>
+          <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-subtle text-center">
+            <span class="text-3xl sm:text-4xl font-display font-extrabold text-brand-blue tracking-tight block">4 Groups</span>
+            <span class="text-xs sm:text-sm font-bold text-slate-900 mt-1 block">Corporate Training Clients</span>
+          </div>
+          <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-subtle text-center">
+            <span class="text-3xl sm:text-4xl font-display font-extrabold text-brand-blue tracking-tight block">95%+</span>
+            <span class="text-xs sm:text-sm font-bold text-slate-900 mt-1 block">Practical Case-Study Curriculum</span>
+          </div>
+        </div>
+
+        <!-- Courses -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
+          <div class="bg-white rounded-3xl p-7 border border-slate-200 shadow-subtle flex flex-col justify-between">
+            <div>
+              <span class="text-xs font-bold text-amber-800 mb-2 block">🏛️ IFA Institute & Corporate Clients</span>
+              <h3 class="text-xl font-display font-bold text-brand-text mb-3">Power BI for Financial & Business Intelligence</h3>
+              <p class="text-xs text-slate-600 leading-relaxed mb-4">Hands-on curriculum guiding professionals to construct self-refreshing, production-grade BI dashboards from corporate financial statements.</p>
+              <ul class="space-y-1.5 text-xs text-slate-600 mb-4">
+                <li>✓ Power Query ETL for financial statements</li>
+                <li>✓ Star-schema dimensional modeling</li>
+                <li>✓ CALCULATE and Time-Intelligence DAX</li>
+                <li>✓ Executive dashboard storytelling</li>
+              </ul>
+            </div>
+            <div class="pt-4 border-t border-slate-100 text-xs font-semibold text-brand-blue">Corporate Masterclass</div>
+          </div>
+
+          <div class="bg-white rounded-3xl p-7 border border-slate-200 shadow-subtle flex flex-col justify-between">
+            <div>
+              <span class="text-xs font-bold text-amber-800 mb-2 block">🏛️ EuroCham Cambodia & IFA</span>
+              <h3 class="text-xl font-display font-bold text-brand-text mb-3">Masterclass: Advanced Excel & Data Pipelines</h3>
+              <p class="text-xs text-slate-600 leading-relaxed mb-4">Designed for corporate working teams seeking to eliminate repetitive weekly spreadsheet compilation and establish robust pipelines.</p>
+              <ul class="space-y-1.5 text-xs text-slate-600 mb-4">
+                <li>✓ Multi-source workbook consolidation in Power Query</li>
+                <li>✓ Dynamic array formulas & lookup models</li>
+                <li>✓ Financial modeling error-proofing rules</li>
+                <li>✓ Automated management reports</li>
+              </ul>
+            </div>
+            <div class="pt-4 border-t border-slate-100 text-xs font-semibold text-brand-blue">Corporate Masterclass</div>
+          </div>
+
+          <div class="bg-white rounded-3xl p-7 border border-slate-200 shadow-subtle flex flex-col justify-between">
+            <div>
+              <span class="text-xs font-bold text-amber-800 mb-2 block">🏛️ RMA Cambodia & RMA Laos</span>
+              <h3 class="text-xl font-display font-bold text-brand-text mb-3">Regional Analytics & HR Scorecard Training</h3>
+              <p class="text-xs text-slate-600 leading-relaxed mb-4">Internal corporate training empowering analytical teams across Cambodia and Laos to build automated operational tracking systems.</p>
+              <ul class="space-y-1.5 text-xs text-slate-600 mb-4">
+                <li>✓ Cross-border metric standardization</li>
+                <li>✓ Attrition & recruitment funnel analytics</li>
+                <li>✓ Compensation transparency models</li>
+                <li>✓ Board-level visual summaries</li>
+              </ul>
+            </div>
+            <div class="pt-4 border-t border-slate-100 text-xs font-semibold text-brand-blue">Internal Enterprise Training</div>
+          </div>
+        </div>
+
+        <!-- Authentic Training Photo Gallery By Topic -->
+        <div>
+          <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6">
+            <div>
+              <h3 class="text-2xl font-display font-bold text-brand-text">Live Training Gallery Organized by Topic</h3>
+              <p class="text-xs sm:text-sm text-slate-600 mt-1">Authentic workshop photos categorized by training program and institutional venue.</p>
+            </div>
+
+            <!-- Topic Filter Buttons -->
+            <div class="flex flex-wrap gap-1.5 p-1 bg-slate-100 rounded-xl">
+              <button onclick="filterTrainingPhotos('all')" class="train-tab-btn active px-3 py-1.5 text-xs font-bold rounded-lg bg-white text-brand-blue shadow-sm">All Topics</button>
+              <button onclick="filterTrainingPhotos('powerbi')" class="train-tab-btn px-3 py-1.5 text-xs font-semibold rounded-lg text-slate-600 hover:text-slate-900">Power BI (EPC)</button>
+              <button onclick="filterTrainingPhotos('eurocham')" class="train-tab-btn px-3 py-1.5 text-xs font-semibold rounded-lg text-slate-600 hover:text-slate-900">Excel (EuroCham)</button>
+              <button onclick="filterTrainingPhotos('ifa')" class="train-tab-btn px-3 py-1.5 text-xs font-semibold rounded-lg text-slate-600 hover:text-slate-900">Modeling (IFA)</button>
+              <button onclick="filterTrainingPhotos('thmdehus')" class="train-tab-btn px-3 py-1.5 text-xs font-semibold rounded-lg text-slate-600 hover:text-slate-900">THMDehus</button>
+              <button onclick="filterTrainingPhotos('seminars')" class="train-tab-btn px-3 py-1.5 text-xs font-semibold rounded-lg text-slate-600 hover:text-slate-900">Digital Finance</button>
+            </div>
+          </div>
+
+          <!-- Photo Grid -->
+          <div id="training-grid" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            
+            <!-- Power BI (EPC) -->
+            <div data-topic="powerbi" onclick="openPhotoModal('images/training/powerbi_epc_1.jpg', 'Corporate Power BI Masterclass — EPC Company', 'Hands-on instruction on star-schema modeling, DAX time-intelligence, and automated reporting.')" class="train-photo-card group relative rounded-2xl overflow-hidden border border-slate-200/90 shadow-subtle hover:shadow-card cursor-pointer bg-slate-900 h-48 sm:h-56">
+              <img src="images/training/powerbi_epc_1.jpg" alt="Power BI EPC" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 opacity-90 group-hover:opacity-100">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent flex flex-col justify-end p-3.5 text-white">
+                <span class="text-xs font-bold leading-tight block">Power BI Masterclass</span>
+                <span class="text-[10px] text-slate-300 line-clamp-1 mt-0.5">EPC Company</span>
+              </div>
+            </div>
+
+            <div data-topic="powerbi" onclick="openPhotoModal('images/training/powerbi_epc_2.jpg', 'Interactive Dashboard Lab — EPC Cohort', 'Guiding engineers and analysts through live corporate KPI visual design.')" class="train-photo-card group relative rounded-2xl overflow-hidden border border-slate-200/90 shadow-subtle hover:shadow-card cursor-pointer bg-slate-900 h-48 sm:h-56">
+              <img src="images/training/powerbi_epc_2.jpg" alt="Dashboard Lab" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 opacity-90 group-hover:opacity-100">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent flex flex-col justify-end p-3.5 text-white">
+                <span class="text-xs font-bold leading-tight block">Dashboard KPI Lab</span>
+                <span class="text-[10px] text-slate-300 line-clamp-1 mt-0.5">EPC Cohort</span>
+              </div>
+            </div>
+
+            <!-- Excel (EuroCham) -->
+            <div data-topic="eurocham" onclick="openPhotoModal('images/training/excel_eurocham_1.jpg', 'Advanced Excel Masterclass — EuroCham Cambodia', 'Delivered for corporate members of the European Chamber of Commerce in Cambodia.')" class="train-photo-card group relative rounded-2xl overflow-hidden border border-slate-200/90 shadow-subtle hover:shadow-card cursor-pointer bg-slate-900 h-48 sm:h-56">
+              <img src="images/training/excel_eurocham_1.jpg" alt="EuroCham Excel" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 opacity-90 group-hover:opacity-100">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent flex flex-col justify-end p-3.5 text-white">
+                <span class="text-xs font-bold leading-tight block">Excel Masterclass</span>
+                <span class="text-[10px] text-slate-300 line-clamp-1 mt-0.5">EuroCham Cambodia</span>
+              </div>
+            </div>
+
+            <div data-topic="eurocham" onclick="openPhotoModal('images/training/excel_eurocham_2.jpg', 'Executive Data Transformation — EuroCham', 'Automating multi-source spreadsheets with Power Query ETL pipelines.')" class="train-photo-card group relative rounded-2xl overflow-hidden border border-slate-200/90 shadow-subtle hover:shadow-card cursor-pointer bg-slate-900 h-48 sm:h-56">
+              <img src="images/training/excel_eurocham_2.jpg" alt="Executive Data Transformation" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 opacity-90 group-hover:opacity-100">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent flex flex-col justify-end p-3.5 text-white">
+                <span class="text-xs font-bold leading-tight block">Power Query ETL</span>
+                <span class="text-[10px] text-slate-300 line-clamp-1 mt-0.5">EuroCham Executive Lab</span>
+              </div>
+            </div>
+
+            <!-- Financial Modeling (IFA) -->
+            <div data-topic="ifa" onclick="openPhotoModal('images/training/excel_ifa_1.jpg', 'Financial Statement Modeling — IFA Institute', 'Teaching 3-statement financial modeling and balance sheet equilibrium to finance professionals.')" class="train-photo-card group relative rounded-2xl overflow-hidden border border-slate-200/90 shadow-subtle hover:shadow-card cursor-pointer bg-slate-900 h-48 sm:h-56">
+              <img src="images/training/excel_ifa_1.jpg" alt="IFA Financial Modeling" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 opacity-90 group-hover:opacity-100">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent flex flex-col justify-end p-3.5 text-white">
+                <span class="text-xs font-bold leading-tight block">Financial Modeling</span>
+                <span class="text-[10px] text-slate-300 line-clamp-1 mt-0.5">IFA Institute</span>
+              </div>
+            </div>
+
+            <div data-topic="ifa" onclick="openPhotoModal('images/training/excel_ifa_2.jpg', 'Faculty Lecture & Lab — IFA Institute', 'Guiding accountants through advanced lookup arrays and dynamic financial modeling.')" class="train-photo-card group relative rounded-2xl overflow-hidden border border-slate-200/90 shadow-subtle hover:shadow-card cursor-pointer bg-slate-900 h-48 sm:h-56">
+              <img src="images/training/excel_ifa_2.jpg" alt="IFA Faculty Lab" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 opacity-90 group-hover:opacity-100">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent flex flex-col justify-end p-3.5 text-white">
+                <span class="text-xs font-bold leading-tight block">Faculty Lecture & Lab</span>
+                <span class="text-[10px] text-slate-300 line-clamp-1 mt-0.5">IFA Institute</span>
+              </div>
+            </div>
+
+            <!-- Corporate Automation (THMDehus) -->
+            <div data-topic="thmdehus" onclick="openPhotoModal('images/training/excel_thmdehus_1.jpg', 'Corporate Spreadsheet Automation — THMDehus', 'Designing error-proof accounting models and inventory tracking systems.')" class="train-photo-card group relative rounded-2xl overflow-hidden border border-slate-200/90 shadow-subtle hover:shadow-card cursor-pointer bg-slate-900 h-48 sm:h-56">
+              <img src="images/training/excel_thmdehus_1.jpg" alt="THMDehus Training" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 opacity-90 group-hover:opacity-100">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent flex flex-col justify-end p-3.5 text-white">
+                <span class="text-xs font-bold leading-tight block">Spreadsheet Automation</span>
+                <span class="text-[10px] text-slate-300 line-clamp-1 mt-0.5">THMDehus Enterprise</span>
+              </div>
+            </div>
+
+            <!-- Digital Finance & Seminars -->
+            <div data-topic="seminars" onclick="openPhotoModal('images/training/digital_finance_transformation.jpg', 'Digital Finance Transformation Seminar', 'Keynote presentation on modernizing financial workflows through business intelligence.')" class="train-photo-card group relative rounded-2xl overflow-hidden border border-slate-200/90 shadow-subtle hover:shadow-card cursor-pointer bg-slate-900 h-48 sm:h-56">
+              <img src="images/training/digital_finance_transformation.jpg" alt="Digital Finance Transformation" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 opacity-90 group-hover:opacity-100">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent flex flex-col justify-end p-3.5 text-white">
+                <span class="text-xs font-bold leading-tight block">Digital Finance</span>
+                <span class="text-[10px] text-slate-300 line-clamp-1 mt-0.5">Keynote Seminar</span>
+              </div>
+            </div>
+
+            <div data-topic="seminars" onclick="openPhotoModal('images/training/professional_seminar_1.jpg', 'Professional Sharing & Executive Speaking', 'Presenting empirical data storytelling strategies to corporate leadership.')" class="train-photo-card group relative rounded-2xl overflow-hidden border border-slate-200/90 shadow-subtle hover:shadow-card cursor-pointer bg-slate-900 h-48 sm:h-56">
+              <img src="images/training/professional_seminar_1.jpg" alt="Professional Sharing" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 opacity-90 group-hover:opacity-100">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent flex flex-col justify-end p-3.5 text-white">
+                <span class="text-xs font-bold leading-tight block">Executive Speaking</span>
+                <span class="text-[10px] text-slate-300 line-clamp-1 mt-0.5">Industry Dialogue</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== 9. EDUCATION & FELLOWSHIPS ==================== -->
+    <section id="education" class="py-20 lg:py-28 bg-white border-b border-slate-200/80">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="max-w-3xl mb-16">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-brand-blue/10 text-brand-blue text-xs font-bold uppercase tracking-wider mb-3">
+            Academic Background
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-display font-extrabold text-brand-text tracking-tight">
+            Education, Global Fellowships & Certifications
+          </h2>
+          <p class="mt-3 text-base sm:text-lg text-slate-600 font-medium">
+            Rigorous undergraduate studies in SME management and international business, enhanced by competitive international fellowships and tier-one finance certifications.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+          <!-- ACCA / FIA Card -->
+          <div class="bg-slate-50/70 rounded-3xl p-7 border-2 border-brand-blue/30 shadow-subtle flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="px-3 py-1 text-xs font-bold rounded-full bg-brand-blue/10 text-brand-blue border border-brand-blue/20">Professional Accounting Qualification</span>
+                <span class="text-xs font-semibold text-brand-green">In Progress • FA1 Passed</span>
+              </div>
+              <h3 class="text-xl font-display font-bold text-brand-text mb-1">ACCA / FIA / CAT (Foundations in Accountancy)</h3>
+              <div class="text-sm font-semibold text-slate-800 mb-4">🏛️ BSA Cambodia • ACCA Global Qualification Pathway</div>
+              <p class="text-sm text-slate-600 leading-relaxed mb-4">
+                Passed FA1 (Recording Financial Transactions). Actively pursuing international accounting qualification alongside full-time analytics leadership, mastering international financial reporting, double-entry audit rigor, and management accounting.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-slate-200/80 flex items-center justify-between">
+              <span class="text-xs font-bold text-brand-blue">Global Accounting Standards</span>
+              <span class="text-xs font-semibold text-brand-green">FA1 Certified</span>
+            </div>
+          </div>
+
+          <!-- Erasmus+ -->
+          <div class="bg-slate-50/70 rounded-3xl p-7 border border-slate-200 shadow-subtle flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="px-3 py-1 text-xs font-bold rounded-full bg-brand-blue/10 text-brand-blue border border-brand-blue/20">International Exchange</span>
+                <span class="text-xs font-semibold text-slate-600">2025</span>
+              </div>
+              <h3 class="text-xl font-display font-bold text-brand-text mb-1">Erasmus+ Mobility for Higher Education</h3>
+              <div class="text-sm font-semibold text-slate-800 mb-4">🏛️ Universitatea Dimitrie Cantemir • Târgu-Mureș, Romania</div>
+              <p class="text-sm text-slate-600 leading-relaxed mb-4">
+                Selected for the prestigious European Union Erasmus+ mobility grant, conducting advanced coursework and academic research in European business management, financial analytics, and educational digital transformation.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-slate-200/80 flex items-center justify-between">
+              <span class="text-xs font-bold text-brand-blue">European Union Erasmus+ Scholar</span>
+              <button onclick="openPhotoModal('images/certificates/erasmus-certificate-suon-lysorng.jpg', 'Erasmus+ Mobility Programme Certificate — Suon Lysorng', 'Universitatea Dimitrie Cantemir Targu-Mures, Romania')" class="text-xs font-semibold text-brand-blue hover:underline">View Certificate &rarr;</button>
+            </div>
+          </div>
+
+          <!-- IATSS Forum Japan -->
+          <div class="bg-slate-50/70 rounded-3xl p-7 border border-slate-200 shadow-subtle flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="px-3 py-1 text-xs font-bold rounded-full bg-amber-500/10 text-amber-800 border-amber-500/20">Leadership Fellowship</span>
+                <span class="text-xs font-semibold text-slate-600">2024</span>
+              </div>
+              <h3 class="text-xl font-display font-bold text-brand-text mb-1">IATSS Forum Leadership Development (Batch 65th)</h3>
+              <div class="text-sm font-semibold text-slate-800 mb-4">🏛️ IATSS Forum • Suzuka, Mie Prefecture, Japan</div>
+              <p class="text-sm text-slate-600 leading-relaxed mb-4">
+                Completed intensive full-scholarship leadership and public policy training in Japan, focusing on collaborative problem-solving, sustainable economic development, and cross-cultural executive governance.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-slate-200/80">
+              <span class="text-xs font-bold text-amber-800">Full IATSS Forum Japan Fellow</span>
+            </div>
+          </div>
+
+          <!-- LSI Business School -->
+          <div class="bg-slate-50/70 rounded-3xl p-7 border border-slate-200 shadow-subtle flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="px-3 py-1 text-xs font-bold rounded-full bg-brand-green/10 text-brand-green border-brand-green/20">Undergraduate Degree</span>
+                <span class="text-xs font-semibold text-slate-600">Graduated</span>
+              </div>
+              <h3 class="text-xl font-display font-bold text-brand-text mb-1">Bachelor of SMEs Management</h3>
+              <div class="text-sm font-semibold text-slate-800 mb-4">🏛️ LSI Business School • Phnom Penh, Cambodia</div>
+              <p class="text-sm text-slate-600 leading-relaxed mb-4">
+                Rigorous undergraduate curriculum in small-and-medium enterprise operational management, financial record-keeping, entrepreneurial strategy, and corporate compliance in emerging markets.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-slate-200/80">
+              <span class="text-xs font-bold text-brand-green">SME Financial & Operational Management</span>
+            </div>
+          </div>
+
+          <!-- Paññāsāstra University of Cambodia (PUC) -->
+          <div class="bg-slate-50/70 rounded-3xl p-7 border border-slate-200 shadow-subtle flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-3">
+                <span class="px-3 py-1 text-xs font-bold rounded-full bg-brand-blue/10 text-brand-blue border-brand-blue/20">Undergraduate Degree</span>
+                <span class="text-xs font-semibold text-slate-600">Graduated</span>
+              </div>
+              <h3 class="text-xl font-display font-bold text-brand-text mb-1">Bachelor of Business Administration (BBA)</h3>
+              <div class="text-sm font-semibold text-slate-800 mb-4">🏛️ Paññāsāstra University of Cambodia (PUC)</div>
+              <p class="text-sm text-slate-600 leading-relaxed mb-4">
+                Focused on international business administration, corporate economics, organizational behavior, and advanced academic and professional English communication.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-slate-200/80">
+              <span class="text-xs font-bold text-brand-blue">International Business Administration</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professional Certifications Grid -->
+        <div class="bg-slate-900 text-white rounded-3xl p-8 sm:p-10 shadow-xl relative overflow-hidden">
+          <div class="max-w-2xl mb-8">
+            <span class="text-xs font-bold text-brand-yellow uppercase tracking-wider block mb-2">Continuous Learning</span>
+            <h3 class="text-2xl sm:text-3xl font-display font-bold text-white">Professional Credentials & Finance Certifications</h3>
+            <p class="text-xs sm:text-sm text-slate-300 mt-2">Verified coursework completed across global finance institutions, corporate modeling academies, and data analytics tracks.</p>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="bg-white/10 backdrop-blur-sm p-4.5 rounded-2xl border border-white/10">
+              <div class="flex items-center justify-between mb-2"><span class="text-[10px] font-bold uppercase text-brand-yellow">Finance</span><span class="text-xs text-slate-400">2025</span></div>
+              <h4 class="text-sm font-bold text-white mb-1">Foundations of Finance</h4>
+              <p class="text-xs text-slate-300">University of Cambridge</p>
+            </div>
+            <div class="bg-white/10 backdrop-blur-sm p-4.5 rounded-2xl border border-white/10">
+              <div class="flex items-center justify-between mb-2"><span class="text-[10px] font-bold uppercase text-brand-yellow">Finance</span><span class="text-xs text-slate-400">2024</span></div>
+              <h4 class="text-sm font-bold text-white mb-1">Corporate Finance & Valuation (CFVM)</h4>
+              <p class="text-xs text-slate-300">New York Institute of Finance (NYIF / edX)</p>
+            </div>
+            <div class="bg-white/10 backdrop-blur-sm p-4.5 rounded-2xl border border-white/10">
+              <div class="flex items-center justify-between mb-2"><span class="text-[10px] font-bold uppercase text-brand-yellow">Leadership</span><span class="text-xs text-slate-400">2024</span></div>
+              <h4 class="text-sm font-bold text-white mb-1">Leading in Finance</h4>
+              <p class="text-xs text-slate-300">Harvard Business School Online</p>
+            </div>
+            <div class="bg-white/10 backdrop-blur-sm p-4.5 rounded-2xl border border-white/10">
+              <div class="flex items-center justify-between mb-2"><span class="text-[10px] font-bold uppercase text-brand-yellow">Financial Modeling</span><span class="text-xs text-slate-400">2024</span></div>
+              <h4 class="text-sm font-bold text-white mb-1">Forecasting Financial Statements</h4>
+              <p class="text-xs text-slate-300">New York Institute of Finance (NYIF)</p>
+            </div>
+            <div class="bg-white/10 backdrop-blur-sm p-4.5 rounded-2xl border border-white/10">
+              <div class="flex items-center justify-between mb-2"><span class="text-[10px] font-bold uppercase text-brand-yellow">Executive Training</span><span class="text-xs text-slate-400">2023</span></div>
+              <h4 class="text-sm font-bold text-white mb-1">Advanced Microsoft Excel Master Trainer</h4>
+              <p class="text-xs text-slate-300">Institute of Finance and Accounting (IFA)</p>
+            </div>
+            <div class="bg-white/10 backdrop-blur-sm p-4.5 rounded-2xl border border-white/10">
+              <div class="flex items-center justify-between mb-2"><span class="text-[10px] font-bold uppercase text-brand-yellow">Business Intelligence</span><span class="text-xs text-slate-400">2023</span></div>
+              <h4 class="text-sm font-bold text-white mb-1">Power BI Data Analyst Associate Track</h4>
+              <p class="text-xs text-slate-300">Microsoft Learn / IFA Institute</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== 10. CONTACT & INQUIRIES ==================== -->
+    <section id="contact" class="py-20 lg:py-28 bg-slate-50 relative overflow-hidden">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="max-w-3xl mb-16">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-brand-blue/10 text-brand-blue text-xs font-bold uppercase tracking-wider mb-3">
+            Contact & Inquiries
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-display font-extrabold text-brand-text tracking-tight">
+            Let's Discuss Finance, Data & Training
+          </h2>
+          <p class="mt-3 text-base sm:text-lg text-slate-600 font-medium">
+            Open for corporate training masterclasses, enterprise BI consulting, financial reporting automation, and academic research collaborations.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+          
+          <!-- Contact Details Left -->
+          <div class="lg:col-span-5 space-y-6">
+            <div class="bg-white p-7 rounded-3xl border border-slate-200 shadow-subtle space-y-5">
+              <h3 class="text-xl font-display font-bold text-brand-text">Direct Contact Information</h3>
+              
+              <div class="space-y-4 text-sm">
+                <a href="mailto:lysorngsuon@gmail.com" class="flex items-center gap-3.5 p-3 rounded-xl hover:bg-slate-50 transition-colors">
+                  <div class="w-10 h-10 rounded-xl bg-brand-blue/10 flex items-center justify-center text-brand-blue font-bold">✉️</div>
+                  <div>
+                    <span class="text-xs font-bold text-slate-600 block">Email Address</span>
+                    <span class="font-semibold text-slate-900">lysorngsuon@gmail.com</span>
                   </div>
-                  <div class="author"><strong>Suon Lysorng</strong>, Co-Authors</div>
-                  <div class="periodical">
-                    <em>In Digitalization and Knowledge: Ethical Challenges and Impact on Society, Editura Universitară, Romania, 2026</em>
+                </a>
+
+                <a href="tel:+85598926775" class="flex items-center gap-3.5 p-3 rounded-xl hover:bg-slate-50 transition-colors">
+                  <div class="w-10 h-10 rounded-xl bg-brand-green/10 flex items-center justify-center text-brand-green font-bold">📞</div>
+                  <div>
+                    <span class="text-xs font-bold text-slate-600 block">Phone / Telegram</span>
+                    <span class="font-semibold text-slate-900">(+855) 98 926 775</span>
                   </div>
-                  <div class="links">
-                    <a href="https://doi.org/10.5682/9786062822002" class="btn btn-sm" role="button" target="_blank">DOI</a>
-                    <a href="javascript:void(0);" class="btn btn-sm" role="button" onclick="toggle_vis('bib_paper1')">BibTeX</a>
+                </a>
+
+                <div class="flex items-center gap-3.5 p-3 rounded-xl bg-slate-50/50">
+                  <div class="w-10 h-10 rounded-xl bg-amber-500/10 flex items-center justify-center text-amber-800 font-bold">📍</div>
+                  <div>
+                    <span class="text-xs font-bold text-slate-600 block">Location</span>
+                    <span class="font-semibold text-slate-900">Phnom Penh, Cambodia</span>
                   </div>
-                  <div id="bib_paper1" class="bibref">@incollection{lysorng2026trade,
+                </div>
+              </div>
+
+              <!-- Social Links -->
+              <div class="pt-4 border-t border-slate-100 flex items-center gap-3">
+                <a href="https://www.linkedin.com/in/lysorng-suon-563a44244/" target="_blank" class="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-slate-100 hover:bg-brand-blue hover:text-white text-xs font-bold text-slate-700 transition-all">
+                  <span>LinkedIn Profile &rarr;</span>
+                </a>
+                <a href="https://github.com/Lysorngsuon" target="_blank" class="inline-flex items-center justify-center px-4 py-2.5 rounded-xl bg-slate-100 hover:bg-slate-800 hover:text-white text-xs font-bold text-slate-700 transition-all">
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Documents Download Card -->
+            <div class="bg-white p-7 rounded-3xl border border-slate-200 shadow-subtle space-y-4">
+              <h4 class="text-sm font-bold uppercase tracking-wider text-slate-900">Official Portfolios & Documents</h4>
+              <div class="space-y-2.5">
+                <a href="documents/SOUN_LYSORNG_CV_2026.pdf" download="SOUN_LYSORNG_CV_2026.pdf" target="_blank" class="flex items-center justify-between p-3.5 rounded-xl bg-slate-50 hover:bg-brand-blue/5 border border-slate-200/80 transition-all">
+                  <div>
+                    <span class="text-xs font-bold text-slate-900 block">Full Professional CV (PDF)</span>
+                    <span class="text-[11px] text-slate-600">Updated Version 2026</span>
+                  </div>
+                  <span class="text-xs font-bold text-brand-blue">Download &rarr;</span>
+                </a>
+
+                <a href="documents/Cambodia_SME_Financial_Research_Portfolio.pdf" download="Cambodia_SME_Financial_Research_Portfolio.pdf" target="_blank" class="flex items-center justify-between p-3.5 rounded-xl bg-slate-50 hover:bg-brand-blue/5 border border-slate-200/80 transition-all">
+                  <div>
+                    <span class="text-xs font-bold text-slate-900 block">Cambodia SME Research Portfolio</span>
+                    <span class="text-[11px] text-slate-600">15-Page Academic Paper (PDF)</span>
+                  </div>
+                  <span class="text-xs font-bold text-brand-green">Download &rarr;</span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Message Form Right -->
+          <div class="lg:col-span-7">
+            <div class="bg-white p-8 sm:p-9 rounded-3xl border border-slate-200 shadow-card">
+              <h3 class="text-xl sm:text-2xl font-display font-bold text-brand-text mb-2">Send a Direct Message</h3>
+              <p class="text-xs sm:text-sm text-slate-600 mb-6">Fill in the details below to open a pre-formatted email message.</p>
+
+              <form onsubmit="handleInquirySubmit(event)" class="space-y-4">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div>
+                    <label class="block text-xs font-bold text-slate-800 uppercase tracking-wider mb-1.5">Your Name</label>
+                    <input id="form-name" type="text" required placeholder="e.g. Sothea Chan" class="w-full px-4 py-2.5 text-sm rounded-xl border border-slate-200 focus:border-brand-blue outline-none transition-all">
+                  </div>
+                  <div>
+                    <label class="block text-xs font-bold text-slate-800 uppercase tracking-wider mb-1.5">Your Email Address</label>
+                    <input id="form-email" type="email" required placeholder="sothea@company.com" class="w-full px-4 py-2.5 text-sm rounded-xl border border-slate-200 focus:border-brand-blue outline-none transition-all">
+                  </div>
+                </div>
+
+                <div>
+                  <label class="block text-xs font-bold text-slate-800 uppercase tracking-wider mb-1.5">Inquiry Topic</label>
+                  <select id="form-subject" class="w-full px-4 py-2.5 text-sm rounded-xl border border-slate-200 focus:border-brand-blue outline-none bg-white">
+                    <option value="Corporate Training Inquiry">Corporate Power BI / Excel Training Program</option>
+                    <option value="Financial Dashboard & BI Consulting">Financial Dashboard & BI Consulting</option>
+                    <option value="Financial Reporting & ETL Automation">Financial Reporting & ETL Automation</option>
+                    <option value="Academic Research Collaboration">Academic Research Collaboration</option>
+                    <option value="General Professional Inquiry">General Professional Inquiry</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label class="block text-xs font-bold text-slate-800 uppercase tracking-wider mb-1.5">Your Message</label>
+                  <textarea id="form-message" rows="5" required placeholder="Describe your organization's goals, dataset challenges, or training requirements..." class="w-full px-4 py-2.5 text-sm rounded-xl border border-slate-200 focus:border-brand-blue outline-none resize-none"></textarea>
+                </div>
+
+                <button type="submit" class="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 text-sm font-bold text-white bg-brand-blue hover:bg-brand-blue-dark rounded-xl shadow-brand hover:shadow-lg transition-all">
+                  <span>Send Direct Inquiry &rarr;</span>
+                </button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== 11. FOOTER ==================== -->
+  <footer class="bg-slate-900 text-white border-t border-slate-800 pt-16 pb-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-slate-800">
+        <div class="lg:col-span-5 space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-brand-blue flex items-center justify-center text-white font-display font-extrabold text-lg shadow-brand">LS</div>
+            <div>
+              <span class="font-display font-bold text-white text-base block">Lysorng Suon</span>
+              <span class="text-xs text-slate-400 font-medium">Finance Data Analyst & Corporate Trainer</span>
+            </div>
+          </div>
+          <p class="text-xs sm:text-sm text-slate-400 leading-relaxed max-w-md">
+            Connecting finance, business operations, and technology by transforming business data into meaningful financial insights, automated reporting, and better decisions.
+          </p>
+          <div class="flex items-center gap-2 pt-1 text-[11px] text-slate-400 font-mono">
+            <span class="w-2.5 h-2.5 rounded-full bg-brand-blue"></span>
+            <span class="w-2.5 h-2.5 rounded-full bg-brand-green"></span>
+            <span class="w-2.5 h-2.5 rounded-full bg-brand-yellow"></span>
+            <span class="pl-1">Brand Identity: Blue • Green • Yellow</span>
+          </div>
+        </div>
+
+        <div class="lg:col-span-3 space-y-3">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-slate-200">Quick Navigation</h4>
+          <ul class="space-y-2 text-xs text-slate-400">
+            <li><a href="#about" class="hover:text-white">About & Core Anchors</a></li>
+            <li><a href="#flagship" class="hover:text-brand-yellow font-medium">Cambodia SME Research</a></li>
+            <li><a href="#projects" class="hover:text-white">Corporate BI Projects</a></li>
+            <li><a href="#skills" class="hover:text-white">Technical Stack</a></li>
+            <li><a href="#experience" class="hover:text-white">Career Timeline</a></li>
+            <li><a href="#training" class="hover:text-white">Training (3,000+ Trainees)</a></li>
+            <li><a href="#education" class="hover:text-white">Education & Fellowships</a></li>
+            <li><a href="#contact" class="hover:text-white">Contact Information</a></li>
+          </ul>
+        </div>
+
+        <div class="lg:col-span-4 space-y-3">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-slate-200">Direct Contact</h4>
+          <p class="text-xs text-slate-400">Phnom Penh, Cambodia</p>
+          <p class="text-xs text-slate-400"><a href="mailto:lysorngsuon@gmail.com" class="text-brand-yellow hover:underline">lysorngsuon@gmail.com</a></p>
+          <p class="text-xs text-slate-400">(+855) 98 926 775</p>
+          <div class="pt-3 flex items-center gap-2.5">
+            <a href="https://www.linkedin.com/in/lysorng-suon-563a44244/" target="_blank" class="w-9 h-9 rounded-lg bg-slate-800 hover:bg-brand-blue flex items-center justify-center text-slate-300 hover:text-white transition-colors">in</a>
+            <a href="https://github.com/Lysorngsuon" target="_blank" class="w-9 h-9 rounded-lg bg-slate-800 hover:bg-slate-700 flex items-center justify-center text-slate-300 hover:text-white transition-colors">git</a>
+            <a href="mailto:lysorngsuon@gmail.com" class="w-9 h-9 rounded-lg bg-slate-800 hover:bg-brand-green flex items-center justify-center text-slate-300 hover:text-white transition-colors">✉</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
+        <div>© 2026 Lysorng Suon. All professional rights reserved.</div>
+        <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="text-xs text-slate-400 hover:text-white">Back to Top &uarr;</button>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==================== INTERACTIVE MODALS ==================== -->
+  
+  <!-- BibTeX Citation Modal -->
+  <div id="bibtex-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm" onclick="closeBibtexModal()">
+    <div class="relative w-full max-w-2xl bg-white rounded-2xl shadow-2xl p-6" onclick="event.stopPropagation()">
+      <button onclick="closeBibtexModal()" class="absolute top-4 right-4 p-2 text-slate-400 hover:text-slate-700 bg-slate-100 rounded-full">✕</button>
+      <h3 id="bibtex-modal-title" class="text-lg font-bold text-slate-900 mb-3">BibTeX Citation</h3>
+      <pre id="bibtex-modal-code" class="p-4 bg-slate-900 text-slate-200 text-xs rounded-xl font-mono overflow-x-auto whitespace-pre-wrap"></pre>
+      <div class="mt-4 flex items-center justify-between">
+        <button id="copy-bibtex-btn" onclick="copyBibtexCode()" class="px-4 py-2 text-xs font-bold text-white bg-brand-blue hover:bg-brand-blue-dark rounded-lg">Copy to Clipboard</button>
+        <button onclick="closeBibtexModal()" class="px-4 py-2 text-xs font-semibold text-slate-700 bg-slate-100 rounded-lg">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project Specification Modal -->
+  <div id="project-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 sm:p-6 bg-slate-900/60 backdrop-blur-sm">
+    <div class="relative w-full max-w-4xl max-h-[90vh] overflow-y-auto bg-white rounded-2xl shadow-2xl border border-slate-100 p-6 sm:p-8" onclick="event.stopPropagation()">
+      <button onclick="closeProjectModal()" class="absolute top-5 right-5 p-2 text-slate-400 hover:text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-full">✕</button>
+      
+      <div id="modal-category" class="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-brand-blue/10 text-brand-blue mb-3">Project Category</div>
+      <h3 id="modal-title" class="text-2xl sm:text-3xl font-display font-extrabold text-brand-text mb-2">Project Title</h3>
+      <p id="modal-subtitle" class="text-sm text-slate-600 mb-6 italic">Project Subtitle</p>
+
+      <div class="space-y-4 mb-6">
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-brand-text mb-1.5">Project Overview</h4>
+          <p id="modal-summary" class="text-sm text-slate-600 leading-relaxed"></p>
+        </div>
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-brand-text mb-1.5">Business Challenge Addressed</h4>
+          <p id="modal-challenge" class="text-sm text-slate-600 leading-relaxed"></p>
+        </div>
+      </div>
+
+      <div class="mb-6">
+        <h4 class="text-xs font-bold uppercase tracking-wider text-brand-text mb-2.5">Key Deliverables & Capabilities</h4>
+        <div id="modal-features" class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs text-slate-700"></div>
+      </div>
+
+      <div class="p-4 rounded-xl bg-slate-50 border border-slate-100 flex items-center justify-between">
+        <div>
+          <span class="text-xs font-bold text-slate-900 block">Tools Utilized:</span>
+          <span id="modal-tools" class="text-xs text-slate-600 font-medium"></span>
+        </div>
+        <button onclick="closeProjectModal()" class="px-4 py-2 text-xs font-bold text-white bg-slate-800 rounded-lg">Close Details</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Photo / Certificate Lightbox Modal -->
+  <div id="photo-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-slate-950/80 backdrop-blur-sm" onclick="closePhotoModal()">
+    <div class="relative max-w-3xl w-full bg-white rounded-2xl overflow-hidden shadow-2xl p-4" onclick="event.stopPropagation()">
+      <img id="photo-modal-img" src="" class="w-full max-h-[75vh] object-contain rounded-xl border border-slate-200">
+      <div class="p-4">
+        <h4 id="photo-modal-title" class="text-lg font-bold text-slate-900"></h4>
+        <p id="photo-modal-desc" class="text-sm text-slate-600 mt-1"></p>
+        <button onclick="closePhotoModal()" class="mt-4 px-4 py-1.5 text-xs font-bold text-white bg-slate-800 hover:bg-slate-900 rounded-lg">Close Preview</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== JAVASCRIPT CONTROLLERS ==================== -->
+  <script>
+    // 1. Mobile menu toggle
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // 2. Power BI Dashboard Carousel Controller
+    const dashboardViews = [
+      {
+        title: "1. Executive Financial Overview Dashboard",
+        desc: "Consolidated financial performance KPIs, revenue distribution, and DuPont return decomposition.",
+        file: "images/projects/pbi_page1_executive_overview.png"
+      },
+      {
+        title: "2. Profitability & Health Analysis View",
+        desc: "Longitudinal ROA, ROE, operating margin analysis, and cash conversion cycle benchmarks.",
+        file: "images/projects/pbi_page2_profitability_health.png"
+      },
+      {
+        title: "3. Credit Risk Intelligence Scorecard",
+        desc: "Composite credit risk tiers (Low, Moderate, High, Critical) with debt-service coverage diagnostics.",
+        file: "images/projects/pbi_page3_credit_risk.png"
+      },
+      {
+        title: "4. Multi-Scenario Forward Forecasting View",
+        desc: "Forward-looking 3-year projections under Base, Optimistic, and Adverse macroeconomic conditions.",
+        file: "images/projects/pbi_page4_forecasting.png"
+      },
+      {
+        title: "5. Cambodia Macro & Banking Context View",
+        desc: "Official National Bank of Cambodia (NBC) and NIS macroeconomic and commercial banking indicators.",
+        file: "images/projects/pbi_page5_cambodia_context.png"
+      }
+    ];
+
+    function switchDashboardView(index) {
+      const view = dashboardViews[index];
+      document.getElementById('dashboard-view-title').innerText = view.title;
+      document.getElementById('dashboard-view-desc').innerText = view.desc;
+      document.getElementById('dashboard-main-img').src = view.file;
+      document.getElementById('dashboard-full-link').href = view.file;
+
+      const tabs = document.querySelectorAll('.view-tab-btn');
+      tabs.forEach((tab, idx) => {
+        tab.className = (idx === index)
+          ? "view-tab-btn active px-3 py-1.5 text-xs font-bold rounded-lg bg-white text-brand-blue shadow-sm"
+          : "view-tab-btn px-3 py-1.5 text-xs font-semibold rounded-lg text-slate-600 hover:text-slate-900";
+      });
+
+      const thumbs = document.querySelectorAll('.thumb-btn');
+      thumbs.forEach((thumb, idx) => {
+        thumb.className = (idx === index)
+          ? "thumb-btn border-2 border-brand-blue ring-2 ring-brand-blue/30 rounded-lg overflow-hidden"
+          : "thumb-btn border-2 border-slate-200 opacity-60 hover:opacity-100 rounded-lg overflow-hidden";
+      });
+    }
+
+    // 3. Projects Category Filter Controller
+    function filterProjects(cat) {
+      const cards = document.querySelectorAll('#projects-grid .project-card');
+      const buttons = document.querySelectorAll('.proj-cat-btn');
+
+      buttons.forEach(btn => {
+        btn.className = "proj-cat-btn px-3.5 py-1.5 text-xs font-semibold rounded-lg text-slate-600 hover:text-slate-900";
+      });
+      event.target.className = "proj-cat-btn active px-3.5 py-1.5 text-xs font-bold rounded-lg bg-white text-brand-blue shadow-sm";
+
+      cards.forEach(card => {
+        if (cat === 'all' || card.getAttribute('data-cat') === cat) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    // 4. Training Photos by Topic Filter Controller
+    function filterTrainingPhotos(topic) {
+      const cards = document.querySelectorAll('#training-grid .train-photo-card');
+      const buttons = document.querySelectorAll('.train-tab-btn');
+
+      buttons.forEach(btn => {
+        btn.className = "train-tab-btn px-3 py-1.5 text-xs font-semibold rounded-lg text-slate-600 hover:text-slate-900";
+      });
+      event.target.className = "train-tab-btn active px-3 py-1.5 text-xs font-bold rounded-lg bg-white text-brand-blue shadow-sm";
+
+      cards.forEach(card => {
+        if (topic === 'all' || card.getAttribute('data-topic') === topic) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    // 5. Project Modal Data & Controller
+    const projectsCatalog = {
+      'comin-sap': {
+        title: "Comin Asia EPC Digitization & SAP Business One Automation",
+        subtitle: "Power Platform, Service Layer API & Regional Financial Analytics",
+        category: "Enterprise Digital Transformation",
+        summary: "Modernized 36 manual and paper-based business forms across 8 departments (Finance, Procurement, Inventory, IT, QS, HSEQ, Design & Engineering, Logistics) for Comin Asia (Cambodia & Laos) replacing costly external SAP add-on licensing with in-house Power Platform applications.",
+        challenge: "Manual paper processes caused multi-day approval delays, data reentry errors into SAP Business One, and fragmented financial reporting across regional operations.",
+        features: [
+          "Phase 1: Automated Expense Claim workflow integrated with SAP Business One via Service Layer API",
+          "Automated Journal Entry creation directly in SAP upon final executive approval",
+          "Cost-benefit analysis presented to CFO proving multi-year licensing cost avoidance",
+          "Enterprise-grade governance, internal audit, and developer handover documentation",
+          "Automated Power BI dashboards for Cambodia & Laos regional P&L, project P&L, and AR/AP aging"
+        ],
+        tools: "Power Apps, Power Automate, SAP Business One API, SharePoint, Power BI, DAX"
+      },
+      'cambodia-sme': {
+        title: "Cambodia SME Financial Intelligence & Credit Risk Analysis",
+        subtitle: "An Applied Financial Analytics Framework for SME Financial Performance and Credit Risk",
+        category: "Flagship Independent Research",
+        summary: "A comprehensive applied quantitative finance framework bridging official Cambodian macroeconomic benchmarks with a panel of 100 SMEs across 300 firm-years (2023–2025), featuring dynamic Excel modeling, star-schema Power BI intelligence, and credit risk screening.",
+        challenge: "Over 99.8% of Cambodian businesses are MSMEs, yet 42.4% identify credit access as their primary obstacle due to informal bookkeeping and collateral demands averaging 158.5%. This framework designs a transparent cash-flow-driven intelligence model to evaluate creditworthiness.",
+        features: [
+          "12-Worksheet Production Financial Model in Microsoft Excel",
+          "Interactive 5-View Power BI Dashboard with 33 Native Visual Containers",
+          "15-Page Peer-Standard Academic Research Portfolio PDF",
+          "26 Automated Unit & Accounting Validation Tests (100% Pass)",
+          "Multi-Criteria Sensitivity Credit Risk Scorecard",
+          "Double-entry Balance Equilibrium: Strict $0.00 Discrepancy"
+        ],
+        tools: "Microsoft Excel, Power BI, DAX, Power Query, Python, TMDL, PBIR"
+      },
+      'comin-khmere': {
+        title: "Comin Khmere Accounts Receivable & P&L Intelligence Dashboard",
+        subtitle: "Enterprise Financial BI Implementation",
+        category: "Financial Reporting & Analysis",
+        summary: "Built an executive Power BI financial dashboard consolidating multi-departmental Excel financial statements, accelerating monthly P&L comparison and overdue Accounts Receivable tracking.",
+        challenge: "Financial reports were dispersed across disconnected spreadsheets, causing reconciliation bottlenecks and delayed receivables aging visibility across business units.",
+        features: [
+          "Dynamic P&L variance comparison between actuals and budgets",
+          "Accounts Receivable aging schedules with customer-level exposure tiers",
+          "Automated Power Query ETL pipeline eliminating manual monthly copy-pasting",
+          "Visual KPI executive summary for department directors"
+        ],
+        tools: "Microsoft Power BI, Advanced Excel, Power Query, DAX"
+      },
+      'efg': {
+        title: "EFG Cambodia Compensation & Benefits Analytics Dashboard",
+        subtitle: "Human Capital & Operational Finance Intelligence",
+        category: "Business Intelligence",
+        summary: "Designed and deployed a comprehensive HR & Payroll financial analytics system integrating multi-brand restaurant payroll data into interactive Power BI executive dashboards.",
+        challenge: "Managing labor cost allocation and benefits across multi-unit retail franchise brands required heavy manual aggregation, limiting timely labor budget oversight.",
+        features: [
+          "Automated integration of payroll records and store-level operating schedules",
+          "Salary distribution, overtime trend tracking, and benefit allocation views",
+          "Transparent headcount vs. revenue productivity ratio monitoring",
+          "Dynamic slicers by brand, outlet, job grade, and employment tenure"
+        ],
+        tools: "Power BI, DAX, Advanced Excel, Data Modeling"
+      },
+      'minecorp': {
+        title: "Minecorp Australia Attrition & Recruitment Workforce Analytics",
+        subtitle: "International Workforce Capacity Planning",
+        category: "Workforce & Operational Analytics",
+        summary: "Developed an international workforce planning dashboard tracking attrition trends, recruitment progress, and talent qualification matching across multiple industrial operations.",
+        challenge: "Rapid organizational scaling created workforce turnover blindspots and recruitment funnel friction across distributed technical positions.",
+        features: [
+          "Longitudinal attrition tracking with turnover root-cause categorization",
+          "Recruitment funnel progression KPIs and time-to-hire bottleneck monitoring",
+          "Competency mapping matrix based on thousands of technical job listings",
+          "Interactive talent pipeline forecasting by department and seniority"
+        ],
+        tools: "Power BI, Power Query, DAX, Excel"
+      },
+      'rma-laos': {
+        title: "RMA Laos HR & Training Intelligence Dashboard",
+        subtitle: "Cross-Border Human Capital Intelligence",
+        category: "Business Intelligence",
+        summary: "Consolidated over 7,000 multi-entity organizational records into a unified Power BI management portal covering learning progress, performance ratings, and human capital metrics.",
+        challenge: "Cross-border operational entities in Laos tracked training compliance and staff development in isolated spreadsheets without central visibility.",
+        features: [
+          "Consolidated analysis of 7,000+ enterprise human capital records",
+          "Learning & Development completion rates mapped against performance appraisals",
+          "Word cloud and semantic categorization of employee competency gaps",
+          "Automated executive scorecard comparing entity performance benchmarks"
+        ],
+        tools: "Microsoft Power BI, Excel, Data Transformation, ETL"
+      },
+      'rma-customer': {
+        title: "RMA Group Customer Sales & Service Intelligence Platform",
+        subtitle: "Automotive Division Operational Analytics",
+        category: "Operational Analytics",
+        summary: "Built an end-to-end customer intelligence solution connecting 8 transactional database tables via Power Query ETL to evaluate automotive sales performance and service turnaround.",
+        challenge: "Customer complaint tracking and sales conversion data were siloed, hindering customer retention analysis and post-sales service optimization.",
+        features: [
+          "8-table relational star-schema connecting customers, transactions, and service logs",
+          "Automated ETL pipeline cleansing customer sales databases with zero data loss",
+          "Resolution-time tracking for customer complaints and service tickets",
+          "Sales performance drivers analyzed across vehicle lines and branch locations"
+        ],
+        tools: "Power Query ETL, Power BI, SQL, Excel Data Modeling"
+      }
+    };
+
+    function openProjectModal(projectId) {
+      const p = projectsCatalog[projectId];
+      if (!p) return;
+      document.getElementById('modal-category').innerText = p.category;
+      document.getElementById('modal-title').innerText = p.title;
+      document.getElementById('modal-subtitle').innerText = p.subtitle;
+      document.getElementById('modal-summary').innerText = p.summary;
+      document.getElementById('modal-challenge').innerText = p.challenge;
+      document.getElementById('modal-tools').innerText = p.tools;
+
+      const featContainer = document.getElementById('modal-features');
+      featContainer.innerHTML = '';
+      p.features.forEach(f => {
+        const item = document.createElement('div');
+        item.className = "p-2.5 rounded-lg bg-slate-50 border border-slate-100 flex items-start gap-2";
+        item.innerHTML = "<span class='text-brand-green font-bold'>✓</span><span>" + f + "</span>";
+        featContainer.appendChild(item);
+      });
+
+      const modal = document.getElementById('project-modal');
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeProjectModal() {
+      const modal = document.getElementById('project-modal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+      document.body.style.overflow = 'unset';
+    }
+
+    // 6. Photo & Certificate Modal Controller
+    function openPhotoModal(imgUrl, title, desc) {
+      document.getElementById('photo-modal-img').src = imgUrl;
+      document.getElementById('photo-modal-title').innerText = title;
+      document.getElementById('photo-modal-desc').innerText = desc;
+      const modal = document.getElementById('photo-modal');
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closePhotoModal() {
+      const modal = document.getElementById('photo-modal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+      document.body.style.overflow = 'unset';
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeProjectModal();
+        closePhotoModal();
+      }
+    });
+
+    const bibtexData = {
+      'bib-trade': @incollection{lysorng2026trade,
   title     = {Romania and Cambodia: A Comparative Analysis of International Trade: Similarities and Differences},
   author    = {Lysorng, Suon and Co-Authors},
   booktitle = {Digitalization and Knowledge: Ethical Challenges and Impact on Society},
-  publisher = {Editura Universitar{\u{a}}},
+  publisher = {Editura Universitar{\\u{a}}},
+  address   = {Bucharest, Romania},
   year      = {2026},
   isbn      = {978-606-28-2200-2},
   doi       = {10.5682/9786062822002}
-}</div>
-                </div>
-              </div>
-            </li>
-
-            <!-- Publication 2 -->
-            <li>
-              <div class="pub-row">
-                <div class="abbr">
-                  <img src="./assets/img/training_eurocham.jpg" class="teaser" alt="Error Analysis Paper" />
-                  <abbr class="badge">Book Chapter</abbr>
-                </div>
-                <div>
-                  <div class="title">
-                    <a href="https://doi.org/10.5682/9786062822002" target="_blank">
-                      Common English Errors Among University Students: A Comparative Analysis of Romania and Cambodia
-                    </a>
-                  </div>
-                  <div class="author"><strong>Suon Lysorng</strong>, Co-Authors</div>
-                  <div class="periodical">
-                    <em>In Digitalization and Knowledge: Ethical Challenges and Impact on Society, Editura Universitară, Romania, 2026</em>
-                  </div>
-                  <div class="links">
-                    <a href="https://doi.org/10.5682/9786062822002" class="btn btn-sm" role="button" target="_blank">DOI</a>
-                    <a href="javascript:void(0);" class="btn btn-sm" role="button" onclick="toggle_vis('bib_paper2')">BibTeX</a>
-                  </div>
-                  <div id="bib_paper2" class="bibref">@incollection{lysorng2026errors,
+},
+      'bib-errors': @incollection{lysorng2026errors,
   title     = {Common English Errors Among University Students: A Comparative Analysis of Romania and Cambodia},
   author    = {Lysorng, Suon and Co-Authors},
   booktitle = {Digitalization and Knowledge: Ethical Challenges and Impact on Society},
-  publisher = {Editura Universitar{\u{a}}},
+  publisher = {Editura Universitar{\\u{a}}},
+  address   = {Bucharest, Romania},
   year      = {2026},
   isbn      = {978-606-28-2200-2},
   doi       = {10.5682/9786062822002}
-}</div>
-                </div>
-              </div>
-            </li>
+}
+    };
 
-          </ol>
-        </div>
+    function toggleBibtexModal(bibId) {
+      const code = bibtexData[bibId];
+      if (!code) return;
+      document.getElementById('bibtex-modal-code').innerText = code;
+      const modal = document.getElementById('bibtex-modal');
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+      document.body.style.overflow = 'hidden';
+    }
 
-        <h1 id="teaching"></h1>
+    function closeBibtexModal() {
+      const modal = document.getElementById('bibtex-modal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+      document.body.style.overflow = 'unset';
+    }
 
-        <h2>Teaching</h2>
+    function copyBibtexCode() {
+      const text = document.getElementById('bibtex-modal-code').innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        const btn = document.getElementById('copy-bibtex-btn');
+        const orig = btn.innerText;
+        btn.innerText = "✓ Copied to Clipboard!";
+        setTimeout(() => { btn.innerText = orig; }, 2000);
+      });
+    }
 
-        <h3 id="courses">Academic & Professional Courses</h3>
+    // 7. Direct Inquiry Form Handler
+    function handleInquirySubmit(e) {
+      e.preventDefault();
+      const name = document.getElementById('form-name').value;
+      const email = document.getElementById('form-email').value;
+      const subject = document.getElementById('form-subject').value;
+      const message = document.getElementById('form-message').value;
 
-        <ul>
-          <li><strong>Lecturer at Institute of Finance and Accounting (IFA)</strong> (May 2023 – Present)
-            <ul>
-              <li><strong>Advanced Financial Analytics with Power BI & DAX:</strong> Star schema modeling, time-intelligence DAX measures, automated financial reporting.</li>
-              <li><strong>Advanced Excel for Finance & Accounting Professionals:</strong> Pivot tables, dynamic formulas, Power Query data cleaning, scenario forecasting.</li>
-              <li><strong>Microsoft Power Platform in Financial Operations:</strong> Automated approval workflows and internal controls using Power Apps & Power Automate.</li>
-              <li><em>Trained 3,000+ students across Bachelor's, Master's, and executive short-course programs.</em></li>
-            </ul>
-          </li>
-          <li><strong>Corporate Masterclasses</strong>
-            <ul>
-              <li><strong>European Chamber of Commerce in Cambodia (EuroCham):</strong> Executive training on digital finance transformation and data-driven reporting.</li>
-              <li><strong>THMDehus:</strong> Specialized analytics workflows and process management.</li>
-            </ul>
-          </li>
-        </ul>
-
-        <h1 id="projects"></h1>
-
-        <h2>Projects & Portfolios</h2>
-
-        <div class="publications">
-          <ol class="bibliography">
-
-            <!-- Project 1 -->
-            <li>
-              <div class="pub-row">
-                <div class="abbr">
-                  <img src="./assets/img/powerbi_dashboard_preview.jpg" class="teaser" alt="SME Financial Intelligence" />
-                  <abbr class="badge">Research</abbr>
-                </div>
-                <div>
-                  <div class="title"><a href="https://github.com/Lysorngsuon" target="_blank">Cambodia SME Financial Intelligence & Credit Risk Analysis</a></div>
-                  <div class="author"><strong>Suon Lysorng</strong></div>
-                  <div class="periodical"><em>Comprehensive Quantitative Finance Research & Dashboard Suite, Oct 2026</em></div>
-                  <p style="margin: 3px 0 6px; font-size: 0.9em; color: #555;">
-                    12-tab financial model (14 ratios, 3 scenarios), Python ETL pipeline with 12 integrity checks, rule-based credit risk scorecard, and 5-page star-schema Power BI dashboard (35+ DAX measures) calibrated to NBC and World Bank benchmarks.
-                  </p>
-                  <div class="links">
-                    <a href="https://github.com/Lysorngsuon" class="btn btn-sm" role="button" target="_blank">Repository</a>
-                    <a href="assets/docs/SUON_LYSORNG_CV.pdf" class="btn btn-sm" role="button" target="_blank">Details</a>
-                  </div>
-                </div>
-              </div>
-            </li>
-
-            <!-- Project 2 -->
-            <li>
-              <div class="pub-row">
-                <div class="abbr">
-                  <img src="./assets/img/digital_finance_transform.jpg" class="teaser" alt="Comin Asia SAP B1" />
-                  <abbr class="badge">Enterprise</abbr>
-                </div>
-                <div>
-                  <div class="title"><a href="https://www.linkedin.com/in/lysorng-suon-563a44244/" target="_blank">Comin Asia Enterprise Digital Transformation & SAP B1 Automation</a></div>
-                  <div class="author"><strong>Suon Lysorng</strong></div>
-                  <div class="periodical"><em>Comin Asia (Cambodia & Laos), 2025–Present</em></div>
-                  <p style="margin: 3px 0 6px; font-size: 0.9em; color: #555;">
-                    Digitized 36 manual business forms across 8 departments replacing external SAP modules with Power Platform. Built Expense Claim automation integrated via SAP Business One Service Layer API for automated Journal Entry posting.
-                  </p>
-                  <div class="links">
-                    <a href="https://www.linkedin.com/posts/lysorng-suon-563a44244_digitaltransformation-digitalfinance-finance-activity-7493549442617389056-YrpP" class="btn btn-sm" role="button" target="_blank">Case Study</a>
-                  </div>
-                </div>
-              </div>
-            </li>
-
-            <!-- Project 3 -->
-            <li>
-              <div class="pub-row">
-                <div class="abbr">
-                  <img src="./assets/img/training_ifa.jpg" class="teaser" alt="RMA Analytics" />
-                  <abbr class="badge">Analytics</abbr>
-                </div>
-                <div>
-                  <div class="title"><a href="https://www.linkedin.com/in/lysorng-suon-563a44244/" target="_blank">Multi-Entity Conglomerate Reporting Optimization</a></div>
-                  <div class="author"><strong>Suon Lysorng</strong></div>
-                  <div class="periodical"><em>RMA Cambodia Group (AVR, BSP Finance, EFG, Comin, RMA Automotive), 2023–2025</em></div>
-                  <p style="margin: 3px 0 6px; font-size: 0.9em; color: #555;">
-                    Built automated Power BI and Excel reporting pipelines cutting report generation turnaround by 50% across P&L, Accounts Receivable, GL, C&B, and Workforce Scorecards.
-                  </p>
-                  <div class="links">
-                    <a href="assets/docs/SUON_LYSORNG_CV.pdf" class="btn btn-sm" role="button" target="_blank">CV Overview</a>
-                  </div>
-                </div>
-              </div>
-            </li>
-
-          </ol>
-        </div>
-
-        <h1 id="conferences"></h1>
-
-        <h2>Conferences, Seminars & Talks</h2>
-
-        <p>Selected engagements and international programs:</p>
-        <ul>
-          <li><strong>2025:</strong> Erasmus+ Higher Education Mobility Program & Academic Seminar, <em>Universitatea Dimitrie Cantemir</em>, Târgu Mureș, Romania</li>
-          <li><strong>2024:</strong> Leadership Development Program, <em>IATSS Forum</em>, Suzuka, Japan</li>
-          <li><strong>2024:</strong> Digital Finance & Executive Reporting Masterclass, <em>EuroCham Cambodia</em>, Phnom Penh</li>
-          <li><strong>2023–2026:</strong> Project-Based BI & Financial Modeling Seminars, <em>Institute of Finance and Accounting</em>, Phnom Penh</li>
-          <li><strong>2021:</strong> Environmental & Sustainable Development Workshop, <em>YSEALI</em>, Vietnam</li>
-        </ul>
-
-        <h1 id="education"></h1>
-
-        <h2>Education & Accreditations</h2>
-
-        <ul>
-          <li><strong>ACCA / FIA / CAT:</strong> Currently pursuing alongside full-time work (FA1 Passed), BSA Cambodia</li>
-          <li><strong>Bachelor's Degree in SME Management:</strong> LSI Business School, Cambodia (Graduated 2025)</li>
-          <li><strong>Erasmus+ Mobility for Higher Education:</strong> Universitatea Dimitrie Cantemir, Romania (2025)</li>
-          <li><strong>Leadership Development Program:</strong> IATSS Forum, Japan (2024)</li>
-          <li><strong>Diploma in General English (3-Year, 1,308 Hours):</strong> Paññāsāstra University of Cambodia (2021)</li>
-        </ul>
-
-        <h1 id="contact"></h1>
-
-        <h2>Contact</h2>
-
-        <h3 id="contact-info">Suon Lysorng</h3>
-
-        <p>
-          <strong>Finance Division</strong>, Comin Asia
-          <br>
-          Phnom Penh, Cambodia
-          <br>
-          <strong>Email:</strong> <email>lysorngsuon (at) gmail.com</email>
-          <br>
-          <strong>Phone:</strong> (+855) 98 926 775
-          <br>
-          <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/lysorng-suon-563a44244/" target="_blank">linkedin.com/in/lysorng-suon-563a44244</a>
-          <br>
-          <strong>GitHub:</strong> <a href="https://github.com/Lysorngsuon" target="_blank">github.com/Lysorngsuon</a>
-        </p>
-
-        <p>
-          <strong>Faculty of Accounting & Finance</strong>, Institute of Finance and Accounting (IFA)
-          <br>
-          Phnom Penh, Cambodia
-        </p>
-
-        <br>
-        <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
-
-      </section>
+      const mailtoUrl = "mailto:lysorngsuon@gmail.com?subject=" + encodeURIComponent("[Portfolio Inquiry] " + subject + " - " + name) +
+        "&body=" + encodeURIComponent("Name: " + name + "\nEmail: " + email + "\nSubject: " + subject + "\n\nMessage:\n" + message);
       
-      <footer></footer>
-    </div>
+      window.location.href = mailtoUrl;
+      alert("Thank you! Your email client has been opened with your inquiry. Lysorng will respond promptly.");
+    }
+  </script>
 
-  </body>
+</body>
 </html>
